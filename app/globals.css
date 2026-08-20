@@ -3,15 +3,9 @@
 */
 
 /* ---------- Home ---------- */
-.home-stack {
+.home-gap {
   background: #fff;
-  padding: 0;
-}
-.home-stack img {
-  display: block;
-  width: 100%;
-  height: 576px;
-  object-fit: cover;
+  height: 2963px;
 }
 .stop-band {
   background: #fff;
@@ -35,6 +29,13 @@
 }
 
 /* ---------- Fonts (self-hosted) ---------- */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/assets/cdn.hibuwebsites.com/fonts/s/lora/v37/0QIvMX1D_JOuMwr7Iw.woff2") format("woff2");
+}
 @font-face {
   font-family: "Quicksand";
   font-style: normal;
@@ -142,6 +143,13 @@ button {
   z-index: 20;
   padding-top: 15px;
 }
+body:has(.hero) .site-header {
+  /* The source header is a continuous dark, translucent band over the hero. */
+  background: rgba(0, 0, 0, 0.67);
+}
+body:has(.hero) .topbar {
+  height: 156px;
+}
 .topbar {
   padding: 0 40px 0;
   display: flex;
@@ -226,6 +234,7 @@ button {
 
 /* ---------- Nav ---------- */
 .site-nav {
+  background: rgba(0, 0, 0, 0.25);
   padding: 0 24px;
   display: flex;
   justify-content: center;
@@ -469,59 +478,65 @@ button {
 /* ---------- Home hero ---------- */
 .hero {
   position: relative;
-  height: 830px;
+  height: 582px;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
 }
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.27);
+  background: rgba(0, 0, 0, 0.55);
   z-index: 1;
 }
 .hero-content {
   position: relative;
-  z-index: 2;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 110px 40px 0;
-  text-align: center;
+  background: #fff;
+  max-width: 100%;
+  padding: 50px 40px 0;
 }
-.hero h1 {
-  font-family: "Quicksand", sans-serif;
-  font-size: 48px;
+.hero-content h1 {
+  font-family: "Lora", serif;
+  font-size: 38px;
   font-weight: 700;
-  color: #fff;
-  line-height: 58px;
+  color: #c10000;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 0;
+  letter-spacing: -0.5px;
 }
 .hero-upsell {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  color: #fff;
-  line-height: 42px;
-  margin-top: 14px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #bbb;
 }
-.hero h3 {
+.hero-upsell:first-of-type {
+  color: #1275b3;
+  text-align: left;
+  margin-bottom: 2px;
+}
+.hero-upsell:nth-of-type(2) {
+  color: #bbb;
+  text-align: left;
+}
+.hero-content h3 {
   font-family: "Quicksand", sans-serif;
   font-size: 20px;
-  font-weight: 400;
-  color: #fff;
-  line-height: 34px;
-  margin-top: 18px;
+  font-weight: 500;
+  color: #333;
+  line-height: 28px;
+  margin-top: 8px;
+  text-align: center;
 }
 .hero-actions {
-  display: flex;
-  justify-content: center;
-  gap: 26px;
-  margin-top: 30px;
+  display: none;
 }
 .hero-hours {
-  color: #fff;
-  font-weight: 700;
-  font-size: 16px;
-  margin-top: 16px;
+  display: none;
 }
 
 /* ---------- Home about ---------- */
@@ -981,8 +996,9 @@ button {
   .topbar-right { align-items: center; }
   .topbar-tagline { text-align: center; }
   .banner h1 { font-size: 32px; }
-  .hero-content { padding-top: 60px; }
-  .hero-upsell { font-size: 22px; }
+  .hero-content { padding-top: 50px; }
+  .hero-content h1 { font-size: 30px; line-height: 36px; }
+  .hero-upsell { font-size: 18px; }
 }
 
 /* ---------- Per-page calibration (pixel loop) ---------- */
@@ -996,7 +1012,7 @@ button {
 .page-lunch-specials .intro { height: 648px; }
 .page-gallery .intro { height: 405px; }
 .page-reviews .intro { height: 307px; }
-.page-home .intro { height: 504px; }
+
 .page-employment .intro { height: 40px; }
 .page-employment .employment-block { margin-top: -70px; }
 .page-about .intro { height: 70px; }
@@ -1005,7 +1021,7 @@ button {
 .page-contact .contact-grid { margin-top: -80px; }
 .page-contact .contact-form, .page-contact .contact-info { max-height: 420px; }
 
-.page-home .home-stack img { height: 666px; }
+
 .page-reviews .review-list { margin-top: 164px; }
 .page-employment .employment-block { margin-top: 14px; }
 .page-employment .employment-block h2 { margin-bottom: 0; }
@@ -1026,3 +1042,12 @@ button {
 .page-contact .widget-form p { font-size: 11px; margin: -16px 0; }
 .page-contact .form-row { margin-bottom: -8px; }
 .page-contact .widget-form p { margin: -12px 0; }
+
+.page-home .testimonial-band {
+  height: 342px;
+  padding: 40px 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

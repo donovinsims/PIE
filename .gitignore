@@ -13,6 +13,12 @@
 # testing
 /coverage
 
+# Generated local comparison captures; frozen source captures remain tracked.
+/.clone/*/mine/
+
+# Unused source download retained locally for reference.
+/public/assets/le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/HOME1-1920w.jpg
+
 # next.js
 /.next/
 /out/
