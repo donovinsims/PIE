@@ -84,8 +84,7 @@ All 14 pages: **0-1px delta** against source (committed state).
 - **Problem:** Mine is brighter (lum 118-131 vs source 85-76). The source header = continuous dark band; mine has different content layout (white rating pill, different nav styling).
 
 ### Remaining Work
-1. Create and verify the Vercel production deployment.
-2. Record the production URL below once confirmed.
+None. The clone is released and verified.
 
 ---
 
@@ -132,7 +131,13 @@ for f in sorted(glob.glob('.clone/*/mine/desktop.png')):
 
 ## Deployment
 
-Production deployment is pending creation of the new Vercel project. Use `vercel --prod` from this repository after confirming the account and project link.
+**Project:** `teamdonovin/pietros-pizzeria`
+
+**Production URL:** https://pietros-pizzeria.vercel.app
+
+**Release commit:** `83ae988`
+
+**Remote verification:** `/`, `/menu`, and `/contact` returned HTTP 200.
 
 ### Key Files
 - `app/page.tsx` — home page (hero + intro + stop-band + home-gap + testimonial)

@@ -20,7 +20,7 @@
 | 6. Foundation (tokens, Header, Footer, layout) | ✅ Done |
 | 7. Page builds (all 14 pages) | ✅ Done |
 | 8. Verification + drift fixes | ✅ Done — all desktop heights at 0px delta; home verified at all three captured viewports |
-| 9. Vercel deploy | ⏳ Pending |
+| 9. Vercel deploy | ✅ Live — https://pietros-pizzeria.vercel.app |
 
 ---
 
@@ -62,9 +62,13 @@
 - **Overlay:** rgba(0,0,0,0.55) dark
 - **Text colors:** h1 red #c10000 Lora, upsell blue #1275b3 + gray #bbb, tagline dark #333 Quicksand
 - **Header:** 250px total (topbar 156 + nav 79 + padding 15)
-- **Uncommitted:** `app/globals.css` + `app/page.tsx` (hero rebuild)
 - **Verified:** home is 5169px on desktop, 5189px on tablet, and 5445px on mobile; all 14 desktop routes match frozen source screenshot heights exactly.
-- **Remaining:** commit and production deployment.
+- **Release commit:** `83ae988` — `feat: finalize Pietro’s Pizzeria clone`.
+
+### Step 9 — Vercel production deployment (2026-08-20)
+- **Project:** `teamdonovin/pietros-pizzeria`
+- **Canonical URL:** https://pietros-pizzeria.vercel.app
+- **Verified routes:** `/`, `/menu`, and `/contact` each returned HTTP 200.
 
 ---
 
