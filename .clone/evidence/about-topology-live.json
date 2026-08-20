@@ -1,0 +1,336 @@
+{
+ "url": "https://www.pietrospizzeria.net/about",
+ "title": "About Pietro's Pizzeria | Roscoe, IL Pizza",
+ "rows": [
+  {
+   "i": 0,
+   "cls": "u_1286069212 dmRespRow hasBackgroundOverlay",
+   "text": "About Pietro's Pizzeria Homemade Food | Fresh Ingredients | Delivery and Carry Out Homemade FoodFresh Ingredie",
+   "rect": "0,234 1440x494",
+   "bg": "rgba(0, 0, 0, 0)|img:https://le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/Lo",
+   "color": "rgb(17, 65, 75)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "0px 10px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h1",
+     "t": "About Pietro's Pizzeria",
+     "rect": "250,444 940x60",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(17, 17, 17)",
+     "font": "Quicksand 40px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
+     "rect": "250,514 940x34",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
+     "rect": "250,516 940x30",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Homemade FoodFresh IngredientsDelivery and Carry OutDining A",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Homemade Food",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Fresh Ingredients",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Delivery and Carry Out",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Dining Area Now Open",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "(815) 623-2112",
+     "rect": "487,571 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Visit Us",
+     "rect": "733,571 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Hours: Open • Closes 9:45 pm",
+     "rect": "250,657 940x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w700",
+     "radius": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "cls": "u_1824846860 dmRespRow hide-for-small",
+   "text": "(815) 623-2112 This is a placeholder for the Yext Knolwedge Tags. This message will not appear on the live sit",
+   "rect": "250,556 940x85",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(17, 65, 75)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "(815) 623-2112",
+     "rect": "487,571 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Visit Us",
+     "rect": "733,571 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "cls": "dmRespRow u_1126261031",
+   "text": "About Us Pietro's Pizzeria provides pizza, dinners, sandwiches, and appetizers, to the Roscoe, IL area. This i",
+   "rect": "0,768 1440x470",
+   "bg": "rgb(255, 255, 255)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "0px 40px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h3",
+     "t": "About Us",
+     "rect": "240,778 466x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Year Established",
+     "rect": "240,876 466x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Products",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Services",
+     "rect": "240,944 466x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Specialties",
+     "rect": "240,1072 466x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Associations",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Brands",
+     "rect": "240,1140 466x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Business Hours",
+     "rect": "734,778 466x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Payment Types",
+     "rect": "734,878 466x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Business Attributes",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Languages",
+     "rect": "734,1058 466x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "cls": "dmRespRow u_1989766660",
+   "text": "",
+   "rect": "0,1238 1440x44",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "8px 40px 15px 34px",
+   "radius": "",
+   "kids": []
+  },
+  {
+   "i": 4,
+   "cls": "dmRespRow u_1227334499",
+   "text": "Hibu FB Page",
+   "rect": "0,1282 1440x91",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "20px 40px 15px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "Hibu FB Page",
+     "rect": "527,1320 88x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "cls": "dmRespRow u_1576125937",
+   "text": "",
+   "rect": "0,1373 1440x44",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "8px 40px 15px 34px",
+   "radius": "",
+   "kids": []
+  }
+ ],
+ "bgSlides": [],
+ "totalH": 2011,
+ "h1": "About Pietro's Pizzeria",
+ "bannerBgs": []
+}

@@ -1,0 +1,439 @@
+{
+ "url": "https://www.pietrospizzeria.net/reviews",
+ "title": "Reviews | Pietro's Pizzeria",
+ "rows": [
+  {
+   "i": 0,
+   "cls": "u_1765040417 dmRespRow hasBackgroundOverlay",
+   "text": "Pietro's Pizzeria Customer Reviews Homemade Food | Fresh Ingredients | Delivery and Carry Out Homemade FoodFre",
+   "rect": "0,233 1440x494",
+   "bg": "rgba(0, 0, 0, 0)|img:https://le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/IM",
+   "color": "rgb(17, 65, 75)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "0px 10px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h1",
+     "t": "Pietro's Pizzeria Customer Reviews",
+     "rect": "250,443 940x60",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(17, 17, 17)",
+     "font": "Quicksand 40px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
+     "rect": "250,513 940x34",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
+     "rect": "250,515 940x30",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Homemade FoodFresh IngredientsDelivery and Carry OutDining A",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Homemade Food",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Fresh Ingredients",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Delivery and Carry Out",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Dining Area Now Open",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "(815) 623-2112",
+     "rect": "487,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Visit Us",
+     "rect": "733,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Hours: Open • Closes 9:45 pm",
+     "rect": "250,656 940x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w700",
+     "radius": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "cls": "u_1553658447 dmRespRow hide-for-small",
+   "text": "(815) 623-2112 This is a placeholder for the Yext Knolwedge Tags. This message will not appear on the live sit",
+   "rect": "250,555 940x85",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(17, 65, 75)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "(815) 623-2112",
+     "rect": "487,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Visit Us",
+     "rect": "733,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "cls": "u_1167931680 dmRespRow dmTopContentRow",
+   "text": "{\"@context\":\"http://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Pietro's Pizzeria\",\"aggregateRating\":{\"@type\":",
+   "rect": "0,727 1440x2184",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "45px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "Write a Review",
+     "rect": "1035,817 150x40",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "button",
+     "t": "All (4.3 / 783Ratings)",
+     "rect": "240,903 196x35",
+     "bg": "rgb(245, 245, 245)",
+     "color": "rgb(85, 85, 85)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "24px",
+     "border": "1px rgb(165, 165, 165) / 1px rgb(165, 165, 165)"
+    },
+    {
+     "tag": "button",
+     "t": "(4.4 / 649Ratings)",
+     "rect": "444,903 200x35",
+     "bg": "rgb(255, 255, 255)",
+     "color": "rgb(85, 85, 85)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "24px",
+     "border": "1px rgb(201, 201, 201) / 1px rgb(201, 201, 201)"
+    },
+    {
+     "tag": "img",
+     "t": "IMG:svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0MyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTI1NS44NzggMTMzLjQ1MWMwLTEwLjczNC0uODcxLTE4LjU2Ny0yLjc1Ni0yNi42OUgxMzAuNTV2NDguNDQ4aDcxLjk0N2MtMS40NSAxMi4wNC05LjI4MyAzMC4xNzItMjYuNjkgNDIuMzU2bC0uMjQ0IDEuNjIyIDM4Ljc1NSAzMC4wMjMgMi42ODUuMjY4YzI0LjY1OS0yMi43NzQgMzguODc1LTU2LjI4MiAzOC44NzUtOTYuMDI3IiBmaWxsPSIjNDI4NUY0Ii8+PHBhdGggZD0iTTEzMC41NSAyNjEuMWMzNS4yNDggMCA2NC44MzktMTEuNjA1IDg2LjQ1My0zMS42MjJsLTQxLjE5Ni0zMS45MTNjLTExLjAyNCA3LjY4OC0yNS44MiAxMy4wNTUtNDUuMjU3IDEzLjA1NS0zNC41MjMgMC02My44MjQtMjIuNzczLTc0LjI2OS01NC4yNWwtMS41MzEuMTMtNDAuMjk4IDMxLjE4Ny0uNTI3IDEuNDY1QzM1LjM5MyAyMzEuNzk4IDc5LjQ5IDI2MS4xIDEzMC41NSAyNjEuMSIgZmlsbD0iIzM0QTg1MyIvPjxwYXRoIGQ9Ik01Ni4yODEgMTU2LjM3Yy0yLjc1Ni04LjEyMy00LjM1MS0xNi44MjctNC4zNTEtMjUuODIgMC04Ljk5NCAxLjU5NS0xNy42OTcgNC4yMDYtMjUuODJsLS4wNzMtMS43M0wxNS4yNiA3MS4zMTJsLTEuMzM1LjYzNUM1LjA3NyA4OS42NDQgMCAxMDkuNTE3IDAgMTMwLjU1czUuMDc3IDQwLjkwNSAxMy45MjUgNTguNjAybDQyLjM1Ni0zMi43ODIiIGZpbGw9IiNGQkJDMDUiLz48cGF0aCBkPSJNMTMwLjU1IDUwLjQ3OWMyNC41MTQgMCA0MS4wNSAxMC41ODkgNTAuNDc5IDE5LjQzOGwzNi44NDQtMzUuOTc0QzE5NS4yNDUgMTIuOTEgMTY1Ljc5OCAwIDEzMC41NSAwIDc5LjQ5IDAgMzUuMzkzIDI5LjMwMSAxMy45MjUgNzEuOTQ3bDQyLjIxMSAzMi43ODNjMTAuNTktMzEuNDc3IDM5Ljg5MS01NC4yNTEgNzQuNDE0LTU0LjI1MSIgZmlsbD0iI0VCNDMzNSIvPjwvc3ZnPg==",
+     "rect": "466,911 19x19",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(85, 85, 85)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Here's what our satisfied customers are saying...",
+     "rect": "240,977 945x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0MyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTI1NS44NzggMTMzLjQ1MWMwLTEwLjczNC0uODcxLTE4LjU2Ny0yLjc1Ni0yNi42OUgxMzAuNTV2NDguNDQ4aDcxLjk0N2MtMS40NSAxMi4wNC05LjI4MyAzMC4xNzItMjYuNjkgNDIuMzU2bC0uMjQ0IDEuNjIyIDM4Ljc1NSAzMC4wMjMgMi42ODUuMjY4YzI0LjY1OS0yMi43NzQgMzguODc1LTU2LjI4MiAzOC44NzUtOTYuMDI3IiBmaWxsPSIjNDI4NUY0Ii8+PHBhdGggZD0iTTEzMC41NSAyNjEuMWMzNS4yNDggMCA2NC44MzktMTEuNjA1IDg2LjQ1My0zMS42MjJsLTQxLjE5Ni0zMS45MTNjLTExLjAyNCA3LjY4OC0yNS44MiAxMy4wNTUtNDUuMjU3IDEzLjA1NS0zNC41MjMgMC02My44MjQtMjIuNzczLTc0LjI2OS01NC4yNWwtMS41MzEuMTMtNDAuMjk4IDMxLjE4Ny0uNTI3IDEuNDY1QzM1LjM5MyAyMzEuNzk4IDc5LjQ5IDI2MS4xIDEzMC41NSAyNjEuMSIgZmlsbD0iIzM0QTg1MyIvPjxwYXRoIGQ9Ik01Ni4yODEgMTU2LjM3Yy0yLjc1Ni04LjEyMy00LjM1MS0xNi44MjctNC4zNTEtMjUuODIgMC04Ljk5NCAxLjU5NS0xNy42OTcgNC4yMDYtMjUuODJsLS4wNzMtMS43M0wxNS4yNiA3MS4zMTJsLTEuMzM1LjYzNUM1LjA3NyA4OS42NDQgMCAxMDkuNTE3IDAgMTMwLjU1czUuMDc3IDQwLjkwNSAxMy45MjUgNTguNjAybDQyLjM1Ni0zMi43ODIiIGZpbGw9IiNGQkJDMDUiLz48cGF0aCBkPSJNMTMwLjU1IDUwLjQ3OWMyNC41MTQgMCA0MS4wNSAxMC41ODkgNTAuNDc5IDE5LjQzOGwzNi44NDQtMzUuOTc0QzE5NS4yNDUgMTIuOTEgMTY1Ljc5OCAwIDEzMC41NSAwIDc5LjQ5IDAgMzUuMzkzIDI5LjMwMSAxMy45MjUgNzEuOTQ3bDQyLjIxMSAzMi43ODNjMTAuNTktMzEuNDc3IDM5Ljg5MS01NC4yNTEgNzQuNDE0LTU0LjI1MSIgZmlsbD0iI0VCNDMzNSIvPjwvc3ZnPg==",
+     "rect": "240,1044 64x64",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Great bartenders. Good specks. Yum.",
+     "rect": "328,1108 857x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(64, 64, 64)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0MyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTI1NS44NzggMTMzLjQ1MWMwLTEwLjczNC0uODcxLTE4LjU2Ny0yLjc1Ni0yNi42OUgxMzAuNTV2NDguNDQ4aDcxLjk0N2MtMS40NSAxMi4wNC05LjI4MyAzMC4xNzItMjYuNjkgNDIuMzU2bC0uMjQ0IDEuNjIyIDM4Ljc1NSAzMC4wMjMgMi42ODUuMjY4YzI0LjY1OS0yMi43NzQgMzguODc1LTU2LjI4MiAzOC44NzUtOTYuMDI3IiBmaWxsPSIjNDI4NUY0Ii8+PHBhdGggZD0iTTEzMC41NSAyNjEuMWMzNS4yNDggMCA2NC44MzktMTEuNjA1IDg2LjQ1My0zMS42MjJsLTQxLjE5Ni0zMS45MTNjLTExLjAyNCA3LjY4OC0yNS44MiAxMy4wNTUtNDUuMjU3IDEzLjA1NS0zNC41MjMgMC02My44MjQtMjIuNzczLTc0LjI2OS01NC4yNWwtMS41MzEuMTMtNDAuMjk4IDMxLjE4Ny0uNTI3IDEuNDY1QzM1LjM5MyAyMzEuNzk4IDc5LjQ5IDI2MS4xIDEzMC41NSAyNjEuMSIgZmlsbD0iIzM0QTg1MyIvPjxwYXRoIGQ9Ik01Ni4yODEgMTU2LjM3Yy0yLjc1Ni04LjEyMy00LjM1MS0xNi44MjctNC4zNTEtMjUuODIgMC04Ljk5NCAxLjU5NS0xNy42OTcgNC4yMDYtMjUuODJsLS4wNzMtMS43M0wxNS4yNiA3MS4zMTJsLTEuMzM1LjYzNUM1LjA3NyA4OS42NDQgMCAxMDkuNTE3IDAgMTMwLjU1czUuMDc3IDQwLjkwNSAxMy45MjUgNTguNjAybDQyLjM1Ni0zMi43ODIiIGZpbGw9IiNGQkJDMDUiLz48cGF0aCBkPSJNMTMwLjU1IDUwLjQ3OWMyNC41MTQgMCA0MS4wNSAxMC41ODkgNTAuNDc5IDE5LjQzOGwzNi44NDQtMzUuOTc0QzE5NS4yNDUgMTIuOTEgMTY1Ljc5OCAwIDEzMC41NSAwIDc5LjQ5IDAgMzUuMzkzIDI5LjMwMSAxMy45MjUgNzEuOTQ3bDQyLjIxMSAzMi43ODNjMTAuNTktMzEuNDc3IDM5Ljg5MS01NC4yNTEgNzQuNDE0LTU0LjI1MSIgZmlsbD0iI0VCNDMzNSIvPjwvc3ZnPg==",
+     "rect": "240,1204 64x64",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Excellent pizza and service",
+     "rect": "328,1268 857x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(64, 64, 64)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0MyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTI1NS44NzggMTMzLjQ1MWMwLTEwLjczNC0uODcxLTE4LjU2Ny0yLjc1Ni0yNi42OUgxMzAuNTV2NDguNDQ4aDcxLjk0N2MtMS40NSAxMi4wNC05LjI4MyAzMC4xNzItMjYuNjkgNDIuMzU2bC0uMjQ0IDEuNjIyIDM4Ljc1NSAzMC4wMjMgMi42ODUuMjY4YzI0LjY1OS0yMi43NzQgMzguODc1LTU2LjI4MiAzOC44NzUtOTYuMDI3IiBmaWxsPSIjNDI4NUY0Ii8+PHBhdGggZD0iTTEzMC41NSAyNjEuMWMzNS4yNDggMCA2NC44MzktMTEuNjA1IDg2LjQ1My0zMS42MjJsLTQxLjE5Ni0zMS45MTNjLTExLjAyNCA3LjY4OC0yNS44MiAxMy4wNTUtNDUuMjU3IDEzLjA1NS0zNC41MjMgMC02My44MjQtMjIuNzczLTc0LjI2OS01NC4yNWwtMS41MzEuMTMtNDAuMjk4IDMxLjE4Ny0uNTI3IDEuNDY1QzM1LjM5MyAyMzEuNzk4IDc5LjQ5IDI2MS4xIDEzMC41NSAyNjEuMSIgZmlsbD0iIzM0QTg1MyIvPjxwYXRoIGQ9Ik01Ni4yODEgMTU2LjM3Yy0yLjc1Ni04LjEyMy00LjM1MS0xNi44MjctNC4zNTEtMjUuODIgMC04Ljk5NCAxLjU5NS0xNy42OTcgNC4yMDYtMjUuODJsLS4wNzMtMS43M0wxNS4yNiA3MS4zMTJsLTEuMzM1LjYzNUM1LjA3NyA4OS42NDQgMCAxMDkuNTE3IDAgMTMwLjU1czUuMDc3IDQwLjkwNSAxMy45MjUgNTguNjAybDQyLjM1Ni0zMi43ODIiIGZpbGw9IiNGQkJDMDUiLz48cGF0aCBkPSJNMTMwLjU1IDUwLjQ3OWMyNC41MTQgMCA0MS4wNSAxMC41ODkgNTAuNDc5IDE5LjQzOGwzNi44NDQtMzUuOTc0QzE5NS4yNDUgMTIuOTEgMTY1Ljc5OCAwIDEzMC41NSAwIDc5LjQ5IDAgMzUuMzkzIDI5LjMwMSAxMy45MjUgNzEuOTQ3bDQyLjIxMSAzMi43ODNjMTAuNTktMzEuNDc3IDM5Ljg5MS01NC4yNTEgNzQuNDE0LTU0LjI1MSIgZmlsbD0iI0VCNDMzNSIvPjwvc3ZnPg==",
+     "rect": "240,1363 64x64",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "My company did a catoring order a couple months back and the",
+     "rect": "328,1427 857x96",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(64, 64, 64)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0MyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTI1NS44NzggMTMzLjQ1MWMwLTEwLjczNC0uODcxLTE4LjU2Ny0yLjc1Ni0yNi42OUgxMzAuNTV2NDguNDQ4aDcxLjk0N2MtMS40NSAxMi4wNC05LjI4MyAzMC4xNzItMjYuNjkgNDIuMzU2bC0uMjQ0IDEuNjIyIDM4Ljc1NSAzMC4wMjMgMi42ODUuMjY4YzI0LjY1OS0yMi43NzQgMzguODc1LTU2LjI4MiAzOC44NzUtOTYuMDI3IiBmaWxsPSIjNDI4NUY0Ii8+PHBhdGggZD0iTTEzMC41NSAyNjEuMWMzNS4yNDggMCA2NC44MzktMTEuNjA1IDg2LjQ1My0zMS42MjJsLTQxLjE5Ni0zMS45MTNjLTExLjAyNCA3LjY4OC0yNS44MiAxMy4wNTUtNDUuMjU3IDEzLjA1NS0zNC41MjMgMC02My44MjQtMjIuNzczLTc0LjI2OS01NC4yNWwtMS41MzEuMTMtNDAuMjk4IDMxLjE4Ny0uNTI3IDEuNDY1QzM1LjM5MyAyMzEuNzk4IDc5LjQ5IDI2MS4xIDEzMC41NSAyNjEuMSIgZmlsbD0iIzM0QTg1MyIvPjxwYXRoIGQ9Ik01Ni4yODEgMTU2LjM3Yy0yLjc1Ni04LjEyMy00LjM1MS0xNi44MjctNC4zNTEtMjUuODIgMC04Ljk5NCAxLjU5NS0xNy42OTcgNC4yMDYtMjUuODJsLS4wNzMtMS43M0wxNS4yNiA3MS4zMTJsLTEuMzM1LjYzNUM1LjA3NyA4OS42NDQgMCAxMDkuNTE3IDAgMTMwLjU1czUuMDc3IDQwLjkwNSAxMy45MjUgNTguNjAybDQyLjM1Ni0zMi43ODIiIGZpbGw9IiNGQkJDMDUiLz48cGF0aCBkPSJNMTMwLjU1IDUwLjQ3OWMyNC41MTQgMCA0MS4wNSAxMC41ODkgNTAuNDc5IDE5LjQzOGwzNi44NDQtMzUuOTc0QzE5NS4yNDUgMTIuOTEgMTY1Ljc5OCAwIDEzMC41NSAwIDc5LjQ5IDAgMzUuMzkzIDI5LjMwMSAxMy45MjUgNzEuOTQ3bDQyLjIxMSAzMi43ODNjMTAuNTktMzEuNDc3IDM5Ljg5MS01NC4yNTEgNzQuNDE0LTU0LjI1MSIgZmlsbD0iI0VCNDMzNSIvPjwvc3ZnPg==",
+     "rect": "240,1595 64x64",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Love their sauce. Reasonably priced lunch. Nice dinning area",
+     "rect": "328,1659 857x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(64, 64, 64)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:AW+MifkrXDIXAAAAAElFTkSuQmCC",
+     "rect": "240,1754 64x64",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "My brother never disappoints when hosting his parties and se",
+     "rect": "328,1818 857x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(64, 64, 64)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0MyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTI1NS44NzggMTMzLjQ1MWMwLTEwLjczNC0uODcxLTE4LjU2Ny0yLjc1Ni0yNi42OUgxMzAuNTV2NDguNDQ4aDcxLjk0N2MtMS40NSAxMi4wNC05LjI4MyAzMC4xNzItMjYuNjkgNDIuMzU2bC0uMjQ0IDEuNjIyIDM4Ljc1NSAzMC4wMjMgMi42ODUuMjY4YzI0LjY1OS0yMi43NzQgMzguODc1LTU2LjI4MiAzOC44NzUtOTYuMDI3IiBmaWxsPSIjNDI4NUY0Ii8+PHBhdGggZD0iTTEzMC41NSAyNjEuMWMzNS4yNDggMCA2NC44MzktMTEuNjA1IDg2LjQ1My0zMS42MjJsLTQxLjE5Ni0zMS45MTNjLTExLjAyNCA3LjY4OC0yNS44MiAxMy4wNTUtNDUuMjU3IDEzLjA1NS0zNC41MjMgMC02My44MjQtMjIuNzczLTc0LjI2OS01NC4yNWwtMS41MzEuMTMtNDAuMjk4IDMxLjE4Ny0uNTI3IDEuNDY1QzM1LjM5MyAyMzEuNzk4IDc5LjQ5IDI2MS4xIDEzMC41NSAyNjEuMSIgZmlsbD0iIzM0QTg1MyIvPjxwYXRoIGQ9Ik01Ni4yODEgMTU2LjM3Yy0yLjc1Ni04LjEyMy00LjM1MS0xNi44MjctNC4zNTEtMjUuODIgMC04Ljk5NCAxLjU5NS0xNy42OTcgNC4yMDYtMjUuODJsLS4wNzMtMS43M0wxNS4yNiA3MS4zMTJsLTEuMzM1LjYzNUM1LjA3NyA4OS42NDQgMCAxMDkuNTE3IDAgMTMwLjU1czUuMDc3IDQwLjkwNSAxMy45MjUgNTguNjAybDQyLjM1Ni0zMi43ODIiIGZpbGw9IiNGQkJDMDUiLz48cGF0aCBkPSJNMTMwLjU1IDUwLjQ3OWMyNC41MTQgMCA0MS4wNSAxMC41ODkgNTAuNDc5IDE5LjQzOGwzNi44NDQtMzUuOTc0QzE5NS4yNDUgMTIuOTEgMTY1Ljc5OCAwIDEzMC41NSAwIDc5LjQ5IDAgMzUuMzkzIDI5LjMwMSAxMy45MjUgNzEuOTQ3bDQyLjIxMSAzMi43ODNjMTAuNTktMzEuNDc3IDM5Ljg5MS01NC4yNTEgNzQuNDE0LTU0LjI1MSIgZmlsbD0iI0VCNDMzNSIvPjwvc3ZnPg==",
+     "rect": "240,1937 64x64",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Anyways a pleasure! Delicious pizza, friendly fast service a",
+     "rect": "328,2001 857x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(64, 64, 64)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0MyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTI1NS44NzggMTMzLjQ1MWMwLTEwLjczNC0uODcxLTE4LjU2Ny0yLjc1Ni0yNi42OUgxMzAuNTV2NDguNDQ4aDcxLjk0N2MtMS40NSAxMi4wNC05LjI4MyAzMC4xNzItMjYuNjkgNDIuMzU2bC0uMjQ0IDEuNjIyIDM4Ljc1NSAzMC4wMjMgMi42ODUuMjY4YzI0LjY1OS0yMi43NzQgMzguODc1LTU2LjI4MiAzOC44NzUtOTYuMDI3IiBmaWxsPSIjNDI4NUY0Ii8+PHBhdGggZD0iTTEzMC41NSAyNjEuMWMzNS4yNDggMCA2NC44MzktMTEuNjA1IDg2LjQ1My0zMS42MjJsLTQxLjE5Ni0zMS45MTNjLTExLjAyNCA3LjY4OC0yNS44MiAxMy4wNTUtNDUuMjU3IDEzLjA1NS0zNC41MjMgMC02My44MjQtMjIuNzczLTc0LjI2OS01NC4yNWwtMS41MzEuMTMtNDAuMjk4IDMxLjE4Ny0uNTI3IDEuNDY1QzM1LjM5MyAyMzEuNzk4IDc5LjQ5IDI2MS4xIDEzMC41NSAyNjEuMSIgZmlsbD0iIzM0QTg1MyIvPjxwYXRoIGQ9Ik01Ni4yODEgMTU2LjM3Yy0yLjc1Ni04LjEyMy00LjM1MS0xNi44MjctNC4zNTEtMjUuODIgMC04Ljk5NCAxLjU5NS0xNy42OTcgNC4yMDYtMjUuODJsLS4wNzMtMS43M0wxNS4yNiA3MS4zMTJsLTEuMzM1LjYzNUM1LjA3NyA4OS42NDQgMCAxMDkuNTE3IDAgMTMwLjU1czUuMDc3IDQwLjkwNSAxMy45MjUgNTguNjAybDQyLjM1Ni0zMi43ODIiIGZpbGw9IiNGQkJDMDUiLz48cGF0aCBkPSJNMTMwLjU1IDUwLjQ3OWMyNC41MTQgMCA0MS4wNSAxMC41ODkgNTAuNDc5IDE5LjQzOGwzNi44NDQtMzUuOTc0QzE5NS4yNDUgMTIuOTEgMTY1Ljc5OCAwIDEzMC41NSAwIDc5LjQ5IDAgMzUuMzkzIDI5LjMwMSAxMy45MjUgNzEuOTQ3bDQyLjIxMSAzMi43ODNjMTAuNTktMzEuNDc3IDM5Ljg5MS01NC4yNTEgNzQuNDE0LTU0LjI1MSIgZmlsbD0iI0VCNDMzNSIvPjwvc3ZnPg==",
+     "rect": "240,2097 64x64",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Excellent pizza!!",
+     "rect": "328,2161 857x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(64, 64, 64)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0MyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTI1NS44NzggMTMzLjQ1MWMwLTEwLjczNC0uODcxLTE4LjU2Ny0yLjc1Ni0yNi42OUgxMzAuNTV2NDguNDQ4aDcxLjk0N2MtMS40NSAxMi4wNC05LjI4MyAzMC4xNzItMjYuNjkgNDIuMzU2bC0uMjQ0IDEuNjIyIDM4Ljc1NSAzMC4wMjMgMi42ODUuMjY4YzI0LjY1OS0yMi43NzQgMzguODc1LTU2LjI4MiAzOC44NzUtOTYuMDI3IiBmaWxsPSIjNDI4NUY0Ii8+PHBhdGggZD0iTTEzMC41NSAyNjEuMWMzNS4yNDggMCA2NC44MzktMTEuNjA1IDg2LjQ1My0zMS42MjJsLTQxLjE5Ni0zMS45MTNjLTExLjAyNCA3LjY4OC0yNS44MiAxMy4wNTUtNDUuMjU3IDEzLjA1NS0zNC41MjMgMC02My44MjQtMjIuNzczLTc0LjI2OS01NC4yNWwtMS41MzEuMTMtNDAuMjk4IDMxLjE4Ny0uNTI3IDEuNDY1QzM1LjM5MyAyMzEuNzk4IDc5LjQ5IDI2MS4xIDEzMC41NSAyNjEuMSIgZmlsbD0iIzM0QTg1MyIvPjxwYXRoIGQ9Ik01Ni4yODEgMTU2LjM3Yy0yLjc1Ni04LjEyMy00LjM1MS0xNi44MjctNC4zNTEtMjUuODIgMC04Ljk5NCAxLjU5NS0xNy42OTcgNC4yMDYtMjUuODJsLS4wNzMtMS43M0wxNS4yNiA3MS4zMTJsLTEuMzM1LjYzNUM1LjA3NyA4OS42NDQgMCAxMDkuNTE3IDAgMTMwLjU1czUuMDc3IDQwLjkwNSAxMy45MjUgNTguNjAybDQyLjM1Ni0zMi43ODIiIGZpbGw9IiNGQkJDMDUiLz48cGF0aCBkPSJNMTMwLjU1IDUwLjQ3OWMyNC41MTQgMCA0MS4wNSAxMC41ODkgNTAuNDc5IDE5LjQzOGwzNi44NDQtMzUuOTc0QzE5NS4yNDUgMTIuOTEgMTY1Ljc5OCAwIDEzMC41NSAwIDc5LjQ5IDAgMzUuMzkzIDI5LjMwMSAxMy45MjUgNzEuOTQ3bDQyLjIxMSAzMi43ODNjMTAuNTktMzEuNDc3IDM5Ljg5MS01NC4yNTEgNzQuNDE0LTU0LjI1MSIgZmlsbD0iI0VCNDMzNSIvPjwvc3ZnPg==",
+     "rect": "240,2256 64x64",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Busy place, but that's because everyone wants their pizza. I",
+     "rect": "328,2320 857x96",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(64, 64, 64)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0MyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTI1NS44NzggMTMzLjQ1MWMwLTEwLjczNC0uODcxLTE4LjU2Ny0yLjc1Ni0yNi42OUgxMzAuNTV2NDguNDQ4aDcxLjk0N2MtMS40NSAxMi4wNC05LjI4MyAzMC4xNzItMjYuNjkgNDIuMzU2bC0uMjQ0IDEuNjIyIDM4Ljc1NSAzMC4wMjMgMi42ODUuMjY4YzI0LjY1OS0yMi43NzQgMzguODc1LTU2LjI4MiAzOC44NzUtOTYuMDI3IiBmaWxsPSIjNDI4NUY0Ii8+PHBhdGggZD0iTTEzMC41NSAyNjEuMWMzNS4yNDggMCA2NC44MzktMTEuNjA1IDg2LjQ1My0zMS42MjJsLTQxLjE5Ni0zMS45MTNjLTExLjAyNCA3LjY4OC0yNS44MiAxMy4wNTUtNDUuMjU3IDEzLjA1NS0zNC41MjMgMC02My44MjQtMjIuNzczLTc0LjI2OS01NC4yNWwtMS41MzEuMTMtNDAuMjk4IDMxLjE4Ny0uNTI3IDEuNDY1QzM1LjM5MyAyMzEuNzk4IDc5LjQ5IDI2MS4xIDEzMC41NSAyNjEuMSIgZmlsbD0iIzM0QTg1MyIvPjxwYXRoIGQ9Ik01Ni4yODEgMTU2LjM3Yy0yLjc1Ni04LjEyMy00LjM1MS0xNi44MjctNC4zNTEtMjUuODIgMC04Ljk5NCAxLjU5NS0xNy42OTcgNC4yMDYtMjUuODJsLS4wNzMtMS43M0wxNS4yNiA3MS4zMTJsLTEuMzM1LjYzNUM1LjA3NyA4OS42NDQgMCAxMDkuNTE3IDAgMTMwLjU1czUuMDc3IDQwLjkwNSAxMy45MjUgNTguNjAybDQyLjM1Ni0zMi43ODIiIGZpbGw9IiNGQkJDMDUiLz48cGF0aCBkPSJNMTMwLjU1IDUwLjQ3OWMyNC41MTQgMCA0MS4wNSAxMC41ODkgNTAuNDc5IDE5LjQzOGwzNi44NDQtMzUuOTc0QzE5NS4yNDUgMTIuOTEgMTY1Ljc5OCAwIDEzMC41NSAwIDc5LjQ5IDAgMzUuMzkzIDI5LjMwMSAxMy45MjUgNzEuOTQ3bDQyLjIxMSAzMi43ODNjMTAuNTktMzEuNDc3IDM5Ljg5MS01NC4yNTEgNzQuNDE0LTU0LjI1MSIgZmlsbD0iI0VCNDMzNSIvPjwvc3ZnPg==",
+     "rect": "240,2488 64x64",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Dam Good Pizza Great Sauce !",
+     "rect": "328,2552 857x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(64, 64, 64)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:svg+xml;base64,PHN2ZyB3aWR0aD0iMjQ0MyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2MiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTI1NS44NzggMTMzLjQ1MWMwLTEwLjczNC0uODcxLTE4LjU2Ny0yLjc1Ni0yNi42OUgxMzAuNTV2NDguNDQ4aDcxLjk0N2MtMS40NSAxMi4wNC05LjI4MyAzMC4xNzItMjYuNjkgNDIuMzU2bC0uMjQ0IDEuNjIyIDM4Ljc1NSAzMC4wMjMgMi42ODUuMjY4YzI0LjY1OS0yMi43NzQgMzguODc1LTU2LjI4MiAzOC44NzUtOTYuMDI3IiBmaWxsPSIjNDI4NUY0Ii8+PHBhdGggZD0iTTEzMC41NSAyNjEuMWMzNS4yNDggMCA2NC44MzktMTEuNjA1IDg2LjQ1My0zMS42MjJsLTQxLjE5Ni0zMS45MTNjLTExLjAyNCA3LjY4OC0yNS44MiAxMy4wNTUtNDUuMjU3IDEzLjA1NS0zNC41MjMgMC02My44MjQtMjIuNzczLTc0LjI2OS01NC4yNWwtMS41MzEuMTMtNDAuMjk4IDMxLjE4Ny0uNTI3IDEuNDY1QzM1LjM5MyAyMzEuNzk4IDc5LjQ5IDI2MS4xIDEzMC41NSAyNjEuMSIgZmlsbD0iIzM0QTg1MyIvPjxwYXRoIGQ9Ik01Ni4yODEgMTU2LjM3Yy0yLjc1Ni04LjEyMy00LjM1MS0xNi44MjctNC4zNTEtMjUuODIgMC04Ljk5NCAxLjU5NS0xNy42OTcgNC4yMDYtMjUuODJsLS4wNzMtMS43M0wxNS4yNiA3MS4zMTJsLTEuMzM1LjYzNUM1LjA3NyA4OS42NDQgMCAxMDkuNTE3IDAgMTMwLjU1czUuMDc3IDQwLjkwNSAxMy45MjUgNTguNjAybDQyLjM1Ni0zMi43ODIiIGZpbGw9IiNGQkJDMDUiLz48cGF0aCBkPSJNMTMwLjU1IDUwLjQ3OWMyNC41MTQgMCA0MS4wNSAxMC41ODkgNTAuNDc5IDE5LjQzOGwzNi44NDQtMzUuOTc0QzE5NS4yNDUgMTIuOTEgMTY1Ljc5OCAwIDEzMC41NSAwIDc5LjQ5IDAgMzUuMzkzIDI5LjMwMSAxMy45MjUgNzEuOTQ3bDQyLjIxMSAzMi43ODNjMTAuNTktMzEuNDc3IDM5Ljg5MS01NC4yNTEgNzQuNDE0LTU0LjI1MSIgZmlsbD0iI0VCNDMzNSIvPjwvc3ZnPg==",
+     "rect": "240,2647 64x64",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Great staff, needs different pu but Pizza makes up for the l",
+     "rect": "328,2711 857x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(64, 64, 64)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Load More",
+     "rect": "240,2816 150x40",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    }
+   ]
+  }
+ ],
+ "bgSlides": [],
+ "totalH": 3506,
+ "h1": "Pietro's Pizzeria Customer Reviews",
+ "bannerBgs": []
+}

@@ -1,0 +1,412 @@
+[
+  {
+    "url": "https://a.tiles.mapbox.com/styles/v1/dannyb123/cj1nokhth002h2ro98mhwrfje/tiles/12/1034/1513?access_token=pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://a.tiles.mapbox.com/styles/v1/dannyb123/cj1nokhth002h2ro98mhwrfje/tiles/12/1034/1514?access_token=pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://a.tiles.mapbox.com/styles/v1/dannyb123/cj1nokhth002h2ro98mhwrfje/tiles/12/1035/1513?access_token=pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://a.tiles.mapbox.com/styles/v1/dannyb123/cj1nokhth002h2ro98mhwrfje/tiles/12/1035/1514?access_token=pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://a.tiles.mapbox.com/styles/v1/dannyb123/cj1nokhth002h2ro98mhwrfje/tiles/12/1036/1513?access_token=pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://a.tiles.mapbox.com/styles/v1/dannyb123/cj1nokhth002h2ro98mhwrfje/tiles/12/1036/1514?access_token=pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://api.tiles.mapbox.com/mapbox.js/v3.0.1/images/marker-icon.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://api.tiles.mapbox.com/mapbox.js/v3.0.1/images/marker-shadow.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/files/81e069a157ae431ab84f1edb47dc2a55_1.min.css?v=128",
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://cdn.hibuwebsites.com/fonts/css2?family=Roboto:wght@100;300;400;500;700;900&family=Lato:wght@100;300;400;700;900&family=Lora:wght@400..700&family=Quicksand:wght@300..700&family=Source+Sans+Pro:wght@200;300;400;600;700;900&subset=latin-ext&display=swap",
+    "status": 200,
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://cdn.hibuwebsites.com/fonts/s/quicksand/v37/6xKtdSZaM9iE8KbpRA_hK1QN.woff2",
+    "status": 200,
+    "contentType": "font/woff2"
+  },
+  {
+    "url": "https://cdn.hibuwebsites.com/fonts/s/sourcesanspro/v23/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2",
+    "status": 200,
+    "contentType": "font/woff2"
+  },
+  {
+    "url": "https://cdn.hibuwebsites.com/fonts/s/sourcesanspro/v23/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2",
+    "status": 200,
+    "contentType": "font/woff2"
+  },
+  {
+    "url": "https://cdn.hibuwebsites.com/fonts/s/sourcesanspro/v23/6xKydSBYKcSV-LCoeQqfX1RYOo3iu4nwlxdu.woff2",
+    "status": 200,
+    "contentType": "font/woff2"
+  },
+  {
+    "url": "https://cdn.hibuwebsites.com/WIDGET_CSS/6d6a30412238cf1aecbc06c9ede648b7.css",
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://cdn.websites.hibu.com/-resellers-preview/_cc_icons/americanexpress_d.svg",
+    "status": 200,
+    "contentType": "image/svg+xml"
+  },
+  {
+    "url": "https://cdn.websites.hibu.com/-resellers-preview/_cc_icons/cash_d.svg",
+    "status": 200,
+    "contentType": "image/svg+xml"
+  },
+  {
+    "url": "https://cdn.websites.hibu.com/-resellers-preview/_cc_icons/check_d.svg",
+    "status": 200,
+    "contentType": "image/svg+xml"
+  },
+  {
+    "url": "https://cdn.websites.hibu.com/-resellers-preview/_cc_icons/discover_d.svg",
+    "status": 200,
+    "contentType": "image/svg+xml"
+  },
+  {
+    "url": "https://cdn.websites.hibu.com/-resellers-preview/_cc_icons/mastercard_d.svg",
+    "status": 200,
+    "contentType": "image/svg+xml"
+  },
+  {
+    "url": "https://cdn.websites.hibu.com/-resellers-preview/_cc_icons/visa_d.svg",
+    "status": 200,
+    "contentType": "image/svg+xml"
+  },
+  {
+    "url": "https://cdn.websites.hibu.com/-resellers-preview/_social_icons/hibu_facebook.svg",
+    "status": 200,
+    "contentType": "image/svg+xml"
+  },
+  {
+    "url": "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css",
+    "status": 200,
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1",
+    "status": 200,
+    "contentType": "font/ttf"
+  },
+  {
+    "url": "https://d32hwlnfiv2gyn.cloudfront.net/i?e=pv&page=Contact%20Pietro%27s%20Pizzeria%20%7C%20Roscoe%2C%20IL&dtm=1787176146829&tid=806368&vp=1440x1000&ds=1440x1878&vid=1&duid=11e411f1755c3509&p=web&tv=js-2.0.0&fp=3960606937&aid=81e069a157ae431ab84f1edb47dc2a55&lang=en-US&cs=UTF-8&tz=America%2FChicago&tna=cf&res=1440x1000&cd=24&cookie=1&url=https%3A%2F%2Fwww.pietrospizzeria.net%2Fcontact",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://d32hwlnfiv2gyn.cloudfront.net/i?e=pv&page=Contact%20Pietro%27s%20Pizzeria%20%7C%20Roscoe%2C%20IL&dtm=1787176150200&tid=389533&vp=768x1000&ds=768x2044&vid=1&duid=3eac7f60dadc8622&p=web&tv=js-2.0.0&fp=113547416&aid=81e069a157ae431ab84f1edb47dc2a55&lang=en-US&cs=UTF-8&tz=America%2FChicago&tna=cf&res=768x1000&cd=24&cookie=1&url=https%3A%2F%2Fwww.pietrospizzeria.net%2Fcontact",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://d32hwlnfiv2gyn.cloudfront.net/i?e=pv&page=Contact%20Pietro%27s%20Pizzeria%20%7C%20Roscoe%2C%20IL&dtm=1787176153513&tid=862791&vp=390x844&ds=768x1712&vid=1&duid=a7c9a2394ef75452&p=web&tv=js-2.0.0&fp=1578749844&aid=81e069a157ae431ab84f1edb47dc2a55&lang=en-US&cs=UTF-8&tz=America%2FChicago&tna=cf&res=390x844&cd=24&cookie=1&url=https%3A%2F%2Fwww.pietrospizzeria.net%2Fcontact",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600&display=swap",
+    "status": 200,
+    "contentType": "text/css; charset=utf-8"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+    "status": 200,
+    "contentType": "font/woff2"
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/schibstedgrotesk/v7/Jqz55SSPQuCQF3t8uOwiUL-taUTtap9GayojdSFO.woff2",
+    "status": 200,
+    "contentType": "font/woff2"
+  },
+  {
+    "url": "https://le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/Transparent_Logo-removebg-preview-b5dcba56-288w.png",
+    "status": 200,
+    "contentType": "image/webp"
+  },
+  {
+    "url": "https://metrics.yellowbook.com/b/ss/yelldudalive/1/JS-1.6.1/s92234527262972?AQB=1&pccr=true&vidn=35431269C51FA77C-400005A509B3D8CA&ndh=1&pf=1&t=19%2F7%2F2026%2016%3A49%3A6%203%20300&fid=65AC51AB17149A03-11C07131CF7A5E80&ce=UTF-8&ns=yellowbook&pageName=https%3A%2F%2Fwww.pietrospizzeria.net%2Fcontact&g=https%3A%2F%2Fwww.pietrospizzeria.net%2Fcontact&events=event1&c1=WBS-PRO-01&c2=7015357315&v2=628056118&c3=US&c4=web&c5=628056118&v10=1&v11=web&v49=OMT_1&s=1440x1000&c=24&j=1.6&v=N&k=Y&bw=1440&bh=1000&AQE=1",
+    "status": 200,
+    "contentType": "image/gif;charset=utf-8"
+  },
+  {
+    "url": "https://metrics.yellowbook.com/b/ss/yelldudalive/1/JS-1.6.1/s93460661001344?AQB=1&pccr=true&vidn=3543126CA1702933-4000149D400F3610&ndh=1&pf=1&t=19%2F7%2F2026%2016%3A49%3A13%203%20300&fid=37844310848C05DE-0156CBF5C291A5AB&ce=UTF-8&ns=yellowbook&pageName=https%3A%2F%2Fwww.pietrospizzeria.net%2Fcontact&g=https%3A%2F%2Fwww.pietrospizzeria.net%2Fcontact&events=event1&c1=WBS-PRO-01&c2=7015357315&v2=628056118&c3=US&c4=web&c5=628056118&v10=1&v11=web&v49=OMT_1&s=390x844&c=24&j=1.6&v=N&k=Y&bw=390&bh=844&AQE=1",
+    "status": 200,
+    "contentType": "image/gif;charset=utf-8"
+  },
+  {
+    "url": "https://metrics.yellowbook.com/b/ss/yelldudalive/1/JS-1.6.1/s95738881547250?AQB=1&pccr=true&vidn=3543126B471AC340-60000CE709ABFAB4&ndh=1&pf=1&t=19%2F7%2F2026%2016%3A49%3A10%203%20300&fid=08DAC89EEA8AEFEF-31A1DB3A7FA2D595&ce=UTF-8&ns=yellowbook&pageName=https%3A%2F%2Fwww.pietrospizzeria.net%2Fcontact&g=https%3A%2F%2Fwww.pietrospizzeria.net%2Fcontact&events=event1&c1=WBS-PRO-01&c2=7015357315&v2=628056118&c3=US&c4=web&c5=628056118&v10=1&v11=web&v49=OMT_1&s=768x1000&c=24&j=1.6&v=N&k=Y&bw=768&bh=1000&AQE=1",
+    "status": 200,
+    "contentType": "image/gif;charset=utf-8"
+  },
+  {
+    "url": "https://static-res-cdn.websites.hibu.com/editor/ed/vendor/mapbox/images/icons.svg",
+    "status": 200,
+    "contentType": "image/svg+xml"
+  },
+  {
+    "url": "https://static-res-cdn.websites.hibu.com/editor/ed/vendor/mapbox/mapbox.css?version=2026-08-16T08_48_48",
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://static-res-cdn.websites.hibu.com/editor/ed/vendor/mapbox/mapbox.fullscreen.css?version=2026-08-16T08_48_48",
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://static-res-cdn.websites.hibu.com/editor/ed/vendor/mapbox/mapbox.popup.css?version=2026-08-16T08_48_48",
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://static-res-cdn.websites.hibu.com/fonts/fontawesome-webfont.woff?v=6",
+    "status": 200,
+    "contentType": "application/font-woff"
+  },
+  {
+    "url": "https://static-res-cdn.websites.hibu.com/mnlt/production/6713/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css",
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176147293",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176147464",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176147559",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176147659",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176147699",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176147718",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176147876",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176147977",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176147991",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176148057",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176150224",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176150508",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176150836",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176150908",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176150994",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176151088",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176151158",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176151285",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176151291",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176151348",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176153971",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176154360",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176154366",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176154499",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176154526",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176154543",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176154578",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176154603",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176154663",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://us.yextevents.com/store_pagespixel?product=knowledgetags&entity_uid=mr4xpD&businessids=7015357315&partition=us&env=prod&pagesReferrer=&pageurl=/contact&eventType=pageview&pageDomain=www.pietrospizzeria.net&queryParams=%7B%22%22%3A%22undefined%22%7D&v=1787176154793",
+    "status": 200,
+    "contentType": "image/gif"
+  },
+  {
+    "url": "https://wsv3cdn.audioeye-services.com/static-scripts/v2/2026-08-17/compliance.css",
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://wsv3cdn.audioeye-services.com/static-scripts/v2/2026-08-17/fullCSS.bundle.css",
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://www.google.com/recaptcha/api2/payload?p=06AFcWeA552nPI6BMYVS1JXxbDqY6CiBFvi8SsEItiiq-Q7jGUidzHft6fcg6fAywy0bUozaQ1oAS5nAF13w2-5OanFYQiKj5QkWzJtnNBpABUvdioJ1gcdU_3I2v6LO793XZ8Qvpqoe5ieNeNm18oK3W4A6Ci8jAxKmRBKOQ2zccEuwhz4F3KNF6psSIsVXFkDO8kxoUqoNM4NYEugOuT5_NHlYMY_P9VqjSIDMdlOFRru9HqUd70P2Q&k=6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME",
+    "status": 200,
+    "contentType": "image/jpeg"
+  },
+  {
+    "url": "https://www.google.com/recaptcha/api2/payload?p=06AFcWeA62tMt1VEQRmexixboR_srPsapQEQTyCfJ21iDADq0UgSo80rwdYK9G_l65mNb_Y3tC3PuiShEPNJ1StRmQOvgBmgbqgSV4rgJNcwJXxQiMvU9aF3_ezhvgUtjQ_Njw8XrjkEssdNXa7wj1zF3gVsYArPOBWEcMMd-s9wNGi1umUBjzklfCGxzwpR-rjdTIcmv63QOM3wXuG8Zbp0AFCl2www-QJSFq9rBLnDBuvbE4rJQxBvQ&k=6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME",
+    "status": 200,
+    "contentType": "image/jpeg"
+  },
+  {
+    "url": "https://www.google.com/recaptcha/api2/payload?p=06AFcWeA6MqPz_N5dfiB2mZXqOc_455M3VIgHUPMEtOdBauTy_SnXrTlIn8Q8TPpIR638iE-1lBibmQkYZrJ3f4y10dxsGdJXV-gYqBdg2T6w_1wZYWGvZwpQnVwObACD6GwmMMljq1hTbNUgK8IL8g0MSZcEfXBrdXl6nOUNKXjX939rogsRRnIqCbzZcga6auk2UPG3Y5Hk99k0oj5gPjQx94p3vpzuNbyO-h6psCz1Tp8aepPABBDE&k=6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME",
+    "status": 200,
+    "contentType": "image/jpeg"
+  },
+  {
+    "url": "https://www.gstatic.com/recaptcha/api2/audio_2x.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://www.gstatic.com/recaptcha/api2/info_2x.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://www.gstatic.com/recaptcha/api2/refresh_2x.png",
+    "status": 200,
+    "contentType": "image/png"
+  },
+  {
+    "url": "https://www.gstatic.com/recaptcha/releases/xg_pWYS8-HRESiV6Rdg4aY_R/styles__ltr.css",
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://www.gstatic.com/recaptcha/releases/XOqlk8PL_yVx6IdpLbpXdiLy/styles__ltr.css",
+    "status": 200,
+    "contentType": "text/css"
+  },
+  {
+    "url": "https://www.pietrospizzeria.net/_dm/s/rt/css/hibu/hibu-runtime.css?version=2026-08-16T08_48_48",
+    "status": 200,
+    "contentType": "text/css"
+  }
+]

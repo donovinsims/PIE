@@ -1,0 +1,356 @@
+{
+ "url": "https://www.pietrospizzeria.net/lunch-specials",
+ "title": "Pietro's Pizzeria Lunch Specials | Roscoe, IL",
+ "rows": [
+  {
+   "i": 0,
+   "cls": "u_1519063896 dmRespRow hasBackgroundOverlay",
+   "text": "Lunch Specials Homemade Food | Fresh Ingredients | Delivery and Carry Out Homemade FoodFresh IngredientsDelive",
+   "rect": "0,233 1440x494",
+   "bg": "rgba(0, 0, 0, 0)|img:https://le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/IM",
+   "color": "rgb(17, 65, 75)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "0px 10px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h1",
+     "t": "Lunch Specials",
+     "rect": "250,443 940x60",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(17, 17, 17)",
+     "font": "Quicksand 40px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
+     "rect": "250,513 940x34",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
+     "rect": "250,515 940x30",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Homemade FoodFresh IngredientsDelivery and Carry OutDining A",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Homemade Food",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Fresh Ingredients",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Delivery and Carry Out",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Dining Area Now Open",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "(815) 623-2112",
+     "rect": "487,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Visit Us",
+     "rect": "733,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Hours: Open • Closes 9:45 pm",
+     "rect": "250,656 940x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w700",
+     "radius": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "cls": "u_1632960587 dmRespRow hide-for-small",
+   "text": "(815) 623-2112 This is a placeholder for the Yext Knolwedge Tags. This message will not appear on the live sit",
+   "rect": "250,555 940x85",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(17, 65, 75)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "(815) 623-2112",
+     "rect": "487,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Visit Us",
+     "rect": "733,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "cls": "dmRespRow u_1482754997",
+   "text": "Try Our Homemade Lunch Specials At Pietro's Pizzeria, all our food is homemade, using fresh ingredients. We do",
+   "rect": "0,727 1440x143",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h3",
+     "t": "Try Our Homemade Lunch Specials",
+     "rect": "240,752 960x33",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "At Pietro's Pizzeria, all our food is homemade, using fresh ",
+     "rect": "240,797 960x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "call us",
+     "rect": "500,823 42x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "cls": "dmRespRow",
+   "text": "",
+   "rect": "0,870 1440x51",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": []
+  },
+  {
+   "i": 4,
+   "cls": "u_1834870061 dmRespRow",
+   "text": "Menu LUNCH SPECIALS Personal Pizza With 1 Topping and a Pop $5.50 Additional Toppings $.50/ea Large Pizza With",
+   "rect": "0,921 1440x1857",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "20px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h3",
+     "t": "Menu",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 30px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "LUNCH SPECIALS",
+     "rect": "240,971 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Personal Pizza",
+     "rect": "240,1090 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Large Pizza",
+     "rect": "240,1493 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Pizza by the Slice",
+     "rect": "240,1759 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "(Choice of Sausage, Pepperoni, Cheese)",
+     "rect": "240,1994 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 15px w700",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "1/2 Order of Spaghetti or Mostaccoli",
+     "rect": "240,2162 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "1/2 Sandwich and 1/2 Fries",
+     "rect": "240,2428 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Plus tax and delivery.",
+     "rect": "240,2676 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Prices are subject to change.",
+     "rect": "240,2700 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "No substitutions allowed.",
+     "rect": "240,2724 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "cls": "dmRespRow",
+   "text": "",
+   "rect": "0,2778 1440x51",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": []
+  }
+ ],
+ "bgSlides": [],
+ "totalH": 3424,
+ "h1": "Lunch Specials",
+ "bannerBgs": []
+}

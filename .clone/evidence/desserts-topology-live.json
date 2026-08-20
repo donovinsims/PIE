@@ -1,0 +1,296 @@
+{
+ "url": "https://www.pietrospizzeria.net/desserts",
+ "title": "Pietro's Pizzeria Desserts Menu | Roscoe, IL",
+ "rows": [
+  {
+   "i": 0,
+   "cls": "u_1239018159 dmRespRow hasBackgroundOverlay",
+   "text": "Dessert Menu Homemade Food | Fresh Ingredients | Delivery and Carry Out Homemade FoodFresh IngredientsDelivery",
+   "rect": "0,233 1440x494",
+   "bg": "rgba(0, 0, 0, 0)|img:https://le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/pi",
+   "color": "rgb(17, 65, 75)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "0px 10px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h1",
+     "t": "Dessert Menu",
+     "rect": "250,443 940x60",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(17, 17, 17)",
+     "font": "Quicksand 40px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
+     "rect": "250,513 940x34",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
+     "rect": "250,515 940x30",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Homemade FoodFresh IngredientsDelivery and Carry OutDining A",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Homemade Food",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Fresh Ingredients",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Delivery and Carry Out",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Dining Area Now Open",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "(815) 623-2112",
+     "rect": "487,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Visit Us",
+     "rect": "733,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Hours: Open • Closes 9:45 pm",
+     "rect": "250,656 940x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w700",
+     "radius": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "cls": "u_1130219516 dmRespRow hide-for-small",
+   "text": "(815) 623-2112 This is a placeholder for the Yext Knolwedge Tags. This message will not appear on the live sit",
+   "rect": "250,555 940x85",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(17, 65, 75)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "(815) 623-2112",
+     "rect": "487,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Visit Us",
+     "rect": "733,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "cls": "dmRespRow u_1482754997",
+   "text": "Finish Your Meal With a Delectable Dessert Who does not like to order dessert after a scrumptious meal? At Pie",
+   "rect": "0,727 1440x143",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h3",
+     "t": "Finish Your Meal With a Delectable Dessert",
+     "rect": "240,752 960x33",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Who does not like to order dessert after a scrumptious meal?",
+     "rect": "240,797 960x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Visit us",
+     "rect": "480,823 47x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "cls": "dmRespRow",
+   "text": "",
+   "rect": "0,870 1440x51",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": []
+  },
+  {
+   "i": 4,
+   "cls": "u_1789696530 dmRespRow",
+   "text": "Menu Desserts Cannoli Cake $6.00 Red Velvet Cake $6.00 Vanilla Confetti Cake $6.00 Black & White Cake $6.00 Br",
+   "rect": "0,921 1440x1163",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "20px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h3",
+     "t": "Menu",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 30px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Desserts",
+     "rect": "240,971 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Plus tax and delivery.",
+     "rect": "240,1982 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Prices are subject to change.",
+     "rect": "240,2006 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "No substitutions allowed.",
+     "rect": "240,2030 960x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "cls": "dmRespRow",
+   "text": "",
+   "rect": "0,2084 1440x51",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": []
+  }
+ ],
+ "bgSlides": [],
+ "totalH": 2730,
+ "h1": "Dessert Menu",
+ "bannerBgs": []
+}

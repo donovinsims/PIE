@@ -1,0 +1,1336 @@
+{
+ "rows": [
+  {
+   "i": 0,
+   "cls": "u_1948017386 dmRespRow hasBackgroundOverlay fullBleedChanged full",
+   "text": "{\"@context\":\"http://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Pietro's Pizzeria\",\"aggregateRating\":{\"@type\":",
+   "rect": "0,0 1440x830",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 20px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "4.3(783 Ratings & Reviews)",
+     "rect": "240,45 306x61",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "600,2 240x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:Transparent_Logo-removebg-preview-b5dcba56-288w.png",
+     "rect": "600,0 240x155",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "(815) 623-2112",
+     "rect": "1101,83 97x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Carry Out-Delivery & Dining Area Available!",
+     "rect": "894,125 306x23",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Home",
+     "rect": "305,177 64x40",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "30px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Menu",
+     "rect": "369,177 80x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "30px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Pizza",
+     "rect": "369,207 158x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Broaster Chicken",
+     "rect": "369,255 158x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Appetizers",
+     "rect": "369,303 158x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Sandwiches",
+     "rect": "369,351 158x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Dinners",
+     "rect": "369,399 158x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Desserts",
+     "rect": "369,447 158x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Family or Party Trays",
+     "rect": "449,177 163x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "30px",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "cls": "u_1738275454 dmRespRow hide-for-small",
+   "text": "{\"@context\":\"http://schema.org\",\"@type\":\"LocalBusiness\",\"name\":\"Pietro's Pizzeria\",\"aggregateRating\":{\"@type\":",
+   "rect": "20,15 1400x140",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "0px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "4.3(783 Ratings & Reviews)",
+     "rect": "240,45 306x61",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "600,2 240x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:Transparent_Logo-removebg-preview-b5dcba56-288w.png",
+     "rect": "600,0 240x155",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "(815) 623-2112",
+     "rect": "1101,83 97x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Carry Out-Delivery & Dining Area Available!",
+     "rect": "894,125 306x23",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "cls": "u_1840450914 dmRespRow hide-for-small",
+   "text": "Home Menu Pizza Broaster Chicken Appetizers Sandwiches Dinners Desserts Family or Party Trays Lunch Specials G",
+   "rect": "20,155 1400x79",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "10px 8px 5px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "Home",
+     "rect": "305,177 64x40",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "30px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Menu",
+     "rect": "369,177 80x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "30px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Pizza",
+     "rect": "369,207 158x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Broaster Chicken",
+     "rect": "369,255 158x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Appetizers",
+     "rect": "369,303 158x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Sandwiches",
+     "rect": "369,351 158x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Dinners",
+     "rect": "369,399 158x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Desserts",
+     "rect": "369,447 158x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Family or Party Trays",
+     "rect": "449,177 163x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "30px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Lunch Specials",
+     "rect": "612,177 124x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "30px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Gallery",
+     "rect": "736,177 72x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "30px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Employment",
+     "rect": "807,177 109x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "30px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Reviews",
+     "rect": "916,177 78x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "30px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "About",
+     "rect": "995,177 64x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 15px w400",
+     "radius": "30px",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "cls": "dmRespRow u_1114492146",
+   "text": "Roscoe's Favorite Pizzeria NEW DINING AREA NOW OPEN!Full Service Bar-GAMING-Sunday Ticket! Homemade Food | Fre",
+   "rect": "20,234 1400x424",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "200px 40px 0px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h1",
+     "t": "Roscoe's Favorite Pizzeria",
+     "rect": "240,444 960x72",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(17, 17, 17)",
+     "font": "Quicksand 48px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "NEW DINING AREA NOW OPEN!",
+     "rect": "240,516 960x45",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 30px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Full Service Bar-GAMING-Sunday Ticket!",
+     "rect": "240,561 960x45",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 30px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
+     "rect": "240,616 960x34",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
+     "rect": "240,618 960x30",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Homemade FoodFresh IngredientsDelivery and Carry OutDining A",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Homemade Food",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Fresh Ingredients",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Delivery and Carry Out",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Dining Area Now Open",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "cls": "u_1029153415 dmRespRow hide-for-small",
+   "text": "(815) 623-2112 This is a placeholder for the Yext Knolwedge Tags. This message will not appear on the live sit",
+   "rect": "20,658 1400x85",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "(815) 623-2112",
+     "rect": "486,673 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Visit Us",
+     "rect": "734,673 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "cls": "dmRespRow u_1699170436",
+   "text": "Hours: Open • Closes 9:45 pm This is a placeholder for the Yext Knolwedge Tags. This message will not appear o",
+   "rect": "20,743 1400x72",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "0px 40px 20px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "p",
+     "t": "Hours: Open • Closes 9:45 pm",
+     "rect": "240,759 960x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w700",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "cls": "dmRespRow",
+   "text": "NEW DINING AREA NOW OPEN!Full Service Bar-GAMING-Sunday Ticket!",
+   "rect": "0,830 1440x212",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "p",
+     "t": "NEW DINING AREA NOW OPEN!",
+     "rect": "240,855 960x90",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 60px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Full Service Bar-GAMING-Sunday Ticket!",
+     "rect": "240,945 960x72",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 48px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "cls": "dmRespRow",
+   "text": "",
+   "rect": "0,1042 1440x736",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "img",
+     "t": "IMG:462555236_1534003907229545_522452832192335924_n-558w.jpg",
+     "rect": "240,1057 466x349",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:462638863_1820287058503695_513161489995355554_n-558w.jpg",
+     "rect": "240,1414 466x349",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:462555684_1059535438909765_3194058447595834118_n-558w.jpg",
+     "rect": "734,1057 466x349",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:462559326_384914098027152_4512526269900734695_n-558w.jpg",
+     "rect": "734,1414 466x349",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "cls": "dmRespRow u_1600832389",
+   "text": "Serving Delicious Homemade Food Using Fresh Ingredients Pietro's Pizzeria is a family-owned and locally operat",
+   "rect": "0,1778 1440x197",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(17, 17, 17)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "30px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h3",
+     "t": "Serving Delicious Homemade Food Using Fresh Ingredients",
+     "rect": "240,1818 960x33",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Pietro's Pizzeria is a family-owned and locally operated res",
+     "rect": "390,1863 660x72",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Visit us",
+     "rect": "796,1889 47x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "cls": "dmRespRow u_1349248237",
+   "text": "Button Button Button Button Button Button",
+   "rect": "0,1975 1440x586",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(17, 17, 17)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "250,2010 307x253",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Button",
+     "rect": "0,0 0x0",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "567,2010 307x253",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Button",
+     "rect": "0,0 0x0",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "883,2010 307x253",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Button",
+     "rect": "0,0 0x0",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "250,2273 307x253",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Button",
+     "rect": "0,0 0x0",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "567,2273 307x253",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "cls": "dmRespRow u_1671030266 fullBleedChanged fullBleedMode hasBackgrou",
+   "text": "Speech bubble icon with text lines. Here's what our satisfied customers are saying...",
+   "rect": "0,2561 1440x333",
+   "bg": "rgb(0, 0, 0)|img:https://le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/46",
+   "color": "rgb(17, 65, 75)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "0px 0px 30px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h1",
+     "t": "Here's what our satisfied customers are saying...",
+     "rect": "249,2674 316x120",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(17, 17, 17)",
+     "font": "Quicksand 36px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "cls": "dmRespRow running-animation-SG0FRWHQ",
+   "text": "WATCH OUR VIDEO HERE",
+   "rect": "0,2894 1440x314",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "p",
+     "t": "WATCH OUR VIDEO HERE",
+     "rect": "240,2919 466x216",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 72px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 12,
+   "cls": "dmRespRow u_1142822768 fullBleedChanged fullBleedMode running-ani",
+   "text": "Pizza If you love pizza as much as we do, visit Pietro's Pizzeria for delicious homemade pizza. Learn More App",
+   "rect": "0,3208 1440x499",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(17, 17, 17)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "30px 0px 0px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "10,3220 467x467",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Pizza",
+     "rect": "217,3389 52x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "If you love pizza as much as we do, visit Pietro's Pizzeria ",
+     "rect": "50,3417 387x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Learn More",
+     "rect": "158,3467 170x40",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "487,3220 467x467",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Appetizers",
+     "rect": "666,3389 107x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Try our delicious appetizers while you wait for the main cou",
+     "rect": "527,3417 387x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Learn More",
+     "rect": "635,3467 170x40",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "963,3220 467x467",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Sandwiches",
+     "rect": "1137,3389 120x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Bite into one of our sandwiches and you'll be back for more.",
+     "rect": "1003,3417 387x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 13,
+   "cls": "dmRespRow u_1730591020 fullBleedChanged fullBleedMode running-ani",
+   "text": "Dinners Enjoy a great dinner with family and friends . Order from us today! Learn More Desserts Your meal won'",
+   "rect": "0,3707 1440x527",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(17, 17, 17)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "0px 0px 30px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "10,3717 467x467",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Dinners",
+     "rect": "205,3886 77x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Enjoy a great dinner with family and friends . Order from us",
+     "rect": "50,3914 387x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Learn More",
+     "rect": "158,3964 170x40",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "487,3717 467x467",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Desserts",
+     "rect": "676,3886 88x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Your meal won't be complete without one of our amazing desse",
+     "rect": "527,3914 387x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Learn More",
+     "rect": "635,3964 170x40",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "963,3717 467x467",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Party Trays",
+     "rect": "1138,3886 117x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Do you have a large group to feed? Order one of our party tr",
+     "rect": "1003,3914 387x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 14,
+   "cls": "dmRespRow u_1881807186 hasBackgroundOverlay lazy",
+   "text": "Learn More About Pietro's Pizzeria",
+   "rect": "0,4233 1440x341",
+   "bg": "rgb(153, 153, 153)|img:https://le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/IM",
+   "color": "rgb(17, 65, 75)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "25px 40px 15px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "p",
+     "t": "Learn More About",
+     "rect": "487,4305 466x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 24px w700",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Pietro's Pizzeria",
+     "rect": "487,4333 466x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 32px w700",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "665,4403 110x110",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:vid-splash-play-1920w.png",
+     "rect": "665,4403 110x110",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "shadow": "",
+     "border": ""
+    }
+   ]
+  }
+ ],
+ "bgSlides": [
+  "https://le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/462555684_10"
+ ],
+ "totalH": 5169
+}

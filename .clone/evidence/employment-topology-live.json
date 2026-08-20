@@ -1,0 +1,492 @@
+{
+ "url": "https://www.pietrospizzeria.net/employment",
+ "title": "Pietro's Pizzeria Jobs | Roscoe, IL",
+ "rows": [
+  {
+   "i": 0,
+   "cls": "u_1714049851 dmRespRow hasBackgroundOverlay",
+   "text": "Pietro's Pizzeria Jobs Homemade Food | Fresh Ingredients | Delivery and Carry Out Homemade FoodFresh Ingredien",
+   "rect": "0,233 1440x494",
+   "bg": "rgba(0, 0, 0, 0)|img:https://le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/g1",
+   "color": "rgb(17, 65, 75)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "0px 10px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h1",
+     "t": "Pietro's Pizzeria Jobs",
+     "rect": "250,443 940x60",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(17, 17, 17)",
+     "font": "Quicksand 40px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
+     "rect": "250,513 940x34",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
+     "rect": "250,515 940x30",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 20px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Homemade FoodFresh IngredientsDelivery and Carry OutDining A",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Homemade Food",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Fresh Ingredients",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Delivery and Carry Out",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Dining Area Now Open",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "(815) 623-2112",
+     "rect": "487,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Visit Us",
+     "rect": "733,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Hours: Open • Closes 9:45 pm",
+     "rect": "250,656 940x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w700",
+     "radius": "",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "cls": "u_1652591959 dmRespRow hide-for-small",
+   "text": "(815) 623-2112 This is a placeholder for the Yext Knolwedge Tags. This message will not appear on the live sit",
+   "rect": "250,555 940x85",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(17, 65, 75)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "15px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "a",
+     "t": "(815) 623-2112",
+     "rect": "487,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Visit Us",
+     "rect": "733,570 220x45",
+     "bg": "rgb(193, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "39px",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "cls": "u_1380538251 dmRespRow dmTopContentRow",
+   "text": "Looking for a New Job? If you're looking for a new career, reach out to Pietro's Pizzeria. We might have the r",
+   "rect": "0,727 1440x627",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(37, 37, 37)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "30px 40px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "h3",
+     "t": "Looking for a New Job?",
+     "rect": "240,759 625x33",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "If you're looking for a new career, reach out to Pietro's Pi",
+     "rect": "240,804 586x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "",
+     "rect": "240,852 586x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Fill out our form below and attach your latest resume, and w",
+     "rect": "240,876 586x48",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Call us",
+     "rect": "280,902 44x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "h3",
+     "t": "Contact Us",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "Quicksand 22px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "label",
+     "t": "Name:",
+     "rect": "255,959 178x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "input",
+     "t": "text ph=",
+     "rect": "255,986 178x40",
+     "bg": "rgb(234, 234, 234)",
+     "color": "rgb(0, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": "2px rgb(255, 255, 255) / 2px rgb(255, 255, 255)"
+    },
+    {
+     "tag": "input",
+     "t": "hidden ph=",
+     "rect": "0,0 0x0",
+     "bg": "rgb(234, 234, 234)",
+     "color": "rgb(0, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "label",
+     "t": "Email:",
+     "rect": "463,959 178x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "input",
+     "t": "email ph=",
+     "rect": "463,986 178x40",
+     "bg": "rgb(234, 234, 234)",
+     "color": "rgb(0, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": "2px rgb(255, 255, 255) / 2px rgb(255, 255, 255)"
+    },
+    {
+     "tag": "input",
+     "t": "hidden ph=",
+     "rect": "0,0 0x0",
+     "bg": "rgb(234, 234, 234)",
+     "color": "rgb(0, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "label",
+     "t": "Phone:",
+     "rect": "672,959 178x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "input",
+     "t": "tel ph=",
+     "rect": "672,986 178x40",
+     "bg": "rgb(234, 234, 234)",
+     "color": "rgb(0, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": "2px rgb(255, 255, 255) / 2px rgb(255, 255, 255)"
+    },
+    {
+     "tag": "input",
+     "t": "hidden ph=",
+     "rect": "0,0 0x0",
+     "bg": "rgb(234, 234, 234)",
+     "color": "rgb(0, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "label",
+     "t": "Message:",
+     "rect": "255,1039 595x24",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "textarea",
+     "t": "textarea ph=",
+     "rect": "255,1066 595x80",
+     "bg": "rgb(234, 234, 234)",
+     "color": "rgb(0, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": "2px rgb(255, 255, 255) / 2px rgb(255, 255, 255)"
+    },
+    {
+     "tag": "input",
+     "t": "hidden ph=",
+     "rect": "0,0 0x0",
+     "bg": "rgb(234, 234, 234)",
+     "color": "rgb(0, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "label",
+     "t": "Field label",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "Attach Resume",
+     "rect": "255,1164 99x20",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(193, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "input",
+     "t": "hidden ph=",
+     "rect": "0,0 0x0",
+     "bg": "rgb(234, 234, 234)",
+     "color": "rgb(0, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "input",
+     "t": "hidden ph=",
+     "rect": "0,0 0x0",
+     "bg": "rgb(234, 234, 234)",
+     "color": "rgb(0, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "iframe",
+     "t": "IFRAME:https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeiWB8UAAAAAHYnVJM7_-7ap6bX",
+     "rect": "-186,926 256x60",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "textarea",
+     "t": "textarea ph=",
+     "rect": "0,0 0x0",
+     "bg": "rgb(234, 234, 234)",
+     "color": "rgb(0, 0, 0)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": "1px rgb(193, 193, 193) / 1px rgb(193, 193, 193)"
+    },
+    {
+     "tag": "iframe",
+     "t": "IFRAME:",
+     "rect": "0,0 0x0",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(37, 37, 37)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "input",
+     "t": "submit ph=",
+     "rect": "259,1249 196x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 16px w700",
+     "radius": "5px",
+     "border": ""
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "cls": "dmRespRow u_1756262831 hasBackgroundOverlay",
+   "text": "Learn More About Pietro's Pizzeria",
+   "rect": "0,1354 1440x341",
+   "bg": "rgb(153, 153, 153)|img:https://le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/IM",
+   "color": "rgb(17, 65, 75)",
+   "font": "\"Source Sans Pro\" 16px w400",
+   "pad": "25px 40px 15px",
+   "radius": "",
+   "kids": [
+    {
+     "tag": "p",
+     "t": "Learn More About",
+     "rect": "487,1426 466x28",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 24px w700",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "p",
+     "t": "Pietro's Pizzeria",
+     "rect": "487,1454 466x40",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "font": "\"Source Sans Pro\" 32px w700",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "a",
+     "t": "",
+     "rect": "665,1524 110x110",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    },
+    {
+     "tag": "img",
+     "t": "IMG:vid-splash-play-1920w.png",
+     "rect": "665,1524 110x110",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(70, 57, 57)",
+     "font": "\"Source Sans Pro\" 16px w400",
+     "radius": "",
+     "border": ""
+    }
+   ]
+  }
+ ],
+ "bgSlides": [],
+ "totalH": 2290,
+ "h1": "Pietro's Pizzeria Jobs",
+ "bannerBgs": []
+}

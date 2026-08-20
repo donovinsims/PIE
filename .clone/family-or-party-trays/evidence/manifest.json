@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "sourceUrl": "https://www.pietrospizzeria.net/family-or-party-trays",
+  "capturedAt": "2026-08-19T21:39:07.555Z",
+  "viewports": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "sections": 1
+    },
+    {
+      "name": "tablet",
+      "viewport": {
+        "width": 768,
+        "height": 1000
+      },
+      "sections": 1
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "sections": 1
+    }
+  ],
+  "safety": "Public rendering facts only; no copied scripts, credentials, headers, cookies, or response bodies.",
+  "tooling": "patched capture (bounded settle)"
+}
