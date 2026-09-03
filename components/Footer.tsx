@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="footer-band">
         <div className="footer-cols">
           <div className="footer-col">
-            <h3>VISIT US</h3>
+            <h3>Visit us</h3>
             <p>
               5724 Elevator RD
               <br />
@@ -15,7 +15,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="footer-col">
-            <h3>HOURS</h3>
+            <h3>Hours</h3>
             <p>
               Mon - Thu, Sun 10:00 am - 9:45 pm
               <br />
@@ -23,7 +23,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="footer-col">
-            <h3>CONTACT US</h3>
+            <h3>Contact us</h3>
             <p>
               Main: <a href={SITE.phoneHref}>{SITE.phone}</a>
             </p>

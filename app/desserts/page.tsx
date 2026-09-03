@@ -2,7 +2,10 @@ import { Banner, Intro, MenuSection } from "@/components/Banner";
 import { asset } from "@/lib/assets";
 import { MENU_DESSERTS } from "@/lib/menus";
 
-export const metadata = { title: "Pietro's Pizzeria Desserts Menu | Roscoe, IL" };
+export const metadata = {
+  title: "Pietro's Pizzeria Desserts Menu | Roscoe, IL",
+  description: "Save room for dessert at Pietro's Pizzeria in Roscoe, IL. Cannoli cake, fried Oreos, and more sweet treats for dine-in, delivery, or carry out.",
+};
 
 const p = (f: string) => asset(`le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/${f}`);
 

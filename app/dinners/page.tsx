@@ -2,7 +2,10 @@ import { Banner, Intro, MenuSection } from "@/components/Banner";
 import { asset } from "@/lib/assets";
 import { MENU_DINNERS } from "@/lib/menus";
 
-export const metadata = { title: "Pietro's Pizzeria Dinner Menu | Roscoe, IL" };
+export const metadata = {
+  title: "Pietro's Pizzeria Dinner Menu | Roscoe, IL",
+  description: "Enjoy Pietro's Pizzeria dinners in Roscoe, IL. Chicken, pasta, and broasted chicken meals — freshly made for dine-in, delivery, or carry out.",
+};
 
 const p = (f: string) => asset(`le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/${f}`);
 

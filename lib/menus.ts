@@ -81,7 +81,7 @@ export const MENU_SANDWICHES: MenuCat[] = [
     {"name": "Fish Sandwich", "price": "$9.60"},
     {"name": "Chicken Sandwich", "price": "$9.60"},
     {"name": "Chicken Parm. Sandwich", "price": "$10.00"},
-    {"name": "Hot Calzone", "price": "$9.10", "desc": ["Ham, Pepperoni, Salami, Mozarella & Special Sauce"]},
+    {"name": "Hot Calzone", "price": "$9.10", "desc": ["Ham, Pepperoni, Salami, Mozzarella & Special Sauce"]},
     {"name": "Calzone", "subs": [{"name": "Create Your Own — Up to Three Toppings", "price": "$9.60"}, {"name": "Added Topping", "price": "$0.90 each"}]},
   ] },
   { title: "Extras", rows: [

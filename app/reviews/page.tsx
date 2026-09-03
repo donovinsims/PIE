@@ -2,7 +2,10 @@ import { Banner } from "@/components/Banner";
 import { SITE } from "@/lib/site";
 import { REVIEWS } from "@/lib/reviews";
 
-export const metadata = { title: "Reviews | Pietro's Pizzeria" };
+export const metadata = {
+  title: "Reviews | Pietro's Pizzeria",
+  description: "Read customer reviews of Pietro's Pizzeria in Roscoe, IL. Rated 4.3 stars with 783 reviews. See what our diners say about our homemade food.",
+};
 
 const REVIEWS_BANNER = "/assets/le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/reviews-gallery-banner-2880w.jpg";
 
@@ -12,12 +15,15 @@ export default function ReviewsPage() {
       <>
       <Banner title="Pietro's Pizzeria Customer Reviews" bg={REVIEWS_BANNER} />
       <section className="reviews-head">
-        <h3 style={{ fontFamily: "Quicksand, sans-serif", fontSize: 22, color: "#C10000" }}>
+        <h2 className="reviews-heading">
           Here's what our satisfied customers are saying...
-        </h3>
+        </h2>
         <div className="rating-big">( 4.3 )</div>
-        <div className="stars-lg">★★★★★</div>
-        <div style={{ fontSize: 16 }}>Overall Rating</div>
+        <div className="stars-lg">
+          <span className="stars-filled" aria-hidden="true">★★★★</span>
+          <span className="stars-partial" aria-hidden="true" style={{ "--pct": "30%" } as React.CSSProperties}>★</span>
+        </div>
+        <div className="reviews-rating-note">Overall Rating</div>
         <div className="reviews-actions" style={{ marginTop: 14 }}>
           <a className="pill-btn sm" href="https://www.pietrospizzeria.net/reviews#write-review">
             Write Review
@@ -38,8 +44,8 @@ export default function ReviewsPage() {
           </article>
         ))}
       </section>
-      <section className="center" style={{ padding: "30px 0 50px" }}>
-        <p style={{ color: "#666", margin: "0 0 6px" }}>You've reached the end of recent reviews.</p>
+      <section className="center reviews-end">
+        <p>You've reached the end of recent reviews.</p>
         <a className="pill-btn sm" href="https://www.pietrospizzeria.net/reviews">
           See more reviews on the source site
         </a>

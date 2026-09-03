@@ -2,7 +2,10 @@ import { Banner } from "@/components/Banner";
 import { asset } from "@/lib/assets";
 import { SITE } from "@/lib/site";
 
-export const metadata = { title: "About Pietro's Pizzeria | Roscoe, IL" };
+export const metadata = {
+  title: "About Pietro's Pizzeria | Roscoe, IL",
+  description: "Learn about Pietro's Pizzeria in Roscoe, IL. Family-owned since 1991, serving homemade pizza, sandwiches, and desserts with fresh ingredients daily.",
+};
 
 const ABOUT_BANNER = asset("le-cdn.hibuwebsites.com/md/dmip/dms3rep/multi/opt/living-room-interior-design-white-sofa-2880w.jpg");
 
@@ -27,7 +30,7 @@ export default function AboutPage() {
       <section className="about-card">
         <div className="about-cols">
           <div>
-            <h3 style={{ fontFamily: "Quicksand", fontSize: 22, color: "#C10000" }}>About Us</h3>
+            <h2 style={{ fontFamily: "Quicksand", fontSize: 22, color: "#C10000" }}>About Us</h2>
             <p style={{ fontSize: 15, color: "#252525" }}>
               Pietro's Pizzeria provides pizza, dinners, sandwiches, appetizers, and more to the Roscoe, IL area. This
               locally owned and operated restaurant is known for its delicious homemade Italian food, made with fresh
@@ -36,7 +39,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div>
-            <h3 style={{ fontFamily: "Quicksand", fontSize: 22, color: "#C10000" }}>Business Information</h3>
+            <h2 style={{ fontFamily: "Quicksand", fontSize: 22, color: "#C10000" }}>Business Information</h2>
             <dl className="kv-list">
               {KH.map(([k, v]) => (
                 <li key={k}>

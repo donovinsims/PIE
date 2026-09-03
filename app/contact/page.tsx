@@ -1,12 +1,15 @@
+import Script from 'next/script';
 import { Banner } from "@/components/Banner";
 import { SITE } from "@/lib/site";
 
-export const metadata = { title: "Contact Pietro's Pizzeria | Roscoe, IL" };
+export const metadata = {
+  title: "Contact Pietro's Pizzeria | Roscoe, IL",
+  description: "Contact Pietro's Pizzeria in Roscoe, IL. Call (815) 623-2112 for delivery, carry out, or dine-in. Visit us at 5724 Elevator RD, Roscoe, IL 61073.",
+};
 
 export default function ContactPage() {
   return (
     <div className="page-contact">
-      <>
       <Banner title="Contact Pietro's Pizzeria" tall>
         <div className="contact-hero-details">
           <p>
@@ -31,40 +34,25 @@ export default function ContactPage() {
       </section>
 
       <section className="intro">
-        <h3>Get In Touch With Us</h3>
+        <h2>Get In Touch With Us</h2>
         <p>
-          Send us a message. Please fill out the short form and we&apos;ll contact you shortly.
-          <br />
-          <em>Fields marked * are required.</em>
+          Send us a message. We&apos;ll contact you shortly.
         </p>
       </section>
 
       <section className="contact-form-section">
-        <form className="widget-form" action="#">
-          <div className="form-row">
-            <label htmlFor="name">Name *</label>
-            <input id="name" name="name" required />
-          </div>
-          <div className="form-row">
-            <label htmlFor="email">Email *</label>
-            <input id="email" name="email" type="email" required />
-          </div>
-          <div className="form-row">
-            <label htmlFor="phone">Phone *</label>
-            <input id="phone" name="phone" type="tel" required />
-          </div>
-          <div className="form-row">
-            <label htmlFor="message">Message *</label>
-            <textarea id="message" name="message" required />
-          </div>
-          <p style={{ fontSize: 13, color: "#888" }}>This site is protected by reCAPTCHA.</p>
-          <button className="pill-btn" type="submit">
-            Reach Out To Us
-          </button>
-        </form>
+        <iframe
+          data-tally-src="https://tally.so/embed/eqXgox?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          loading="lazy"
+          width="100%"
+          height="500"
+          frameBorder={0}
+          marginHeight={0}
+          marginWidth={0}
+          title="Contact Pietro's Pizzeria"
+        />
+        <Script src="https://tally.so/widgets/embed.js" strategy="lazyOnload" />
       </section>
-    </>
     </div>
-    
   );
 }

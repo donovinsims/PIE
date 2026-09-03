@@ -2,7 +2,10 @@ import { Banner, Intro, MenuSection } from "@/components/Banner";
 import { asset } from "@/lib/assets";
 import { MENU_LUNCH_SPECIALS } from "@/lib/menus";
 
-export const metadata = { title: "Pietro's Pizzeria Lunch Specials | Roscoe, IL" };
+export const metadata = {
+  title: "Pietro's Pizzeria Lunch Specials | Roscoe, IL",
+  description: "Grab Pietro's Pizzeria lunch specials in Roscoe, IL. Affordable daily deals on pizza, sandwiches, and more — dine-in, carry out, or delivery.",
+};
 
 const p = (f: string) => asset(`le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/${f}`);
 

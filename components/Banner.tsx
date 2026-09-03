@@ -25,16 +25,7 @@ export function Banner({
     <section className={`banner${tall ? " banner-contact" : ""}`} style={backgroundStyle}>
       <div className="banner-inner">
         <h1>{title}</h1>
-        <h3>{tagline}</h3>
-        <div className="banner-actions">
-          <a className="pill-btn lg" href={SITE.orderUrl}>
-            Order Now
-          </a>
-          <a className="pill-btn lg" href={SITE.directions}>
-            Visit Us at 5724 Elevator RD, Roscoe, IL
-          </a>
-        </div>
-        <div className="banner-hours">{SITE.hoursLine}</div>
+        <h2>{tagline}</h2>
         {children}
       </div>
     </section>
@@ -44,7 +35,7 @@ export function Banner({
 export function Intro({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="intro">
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p>{children}</p>
     </div>
   );
@@ -62,7 +53,7 @@ export function MenuSection({
 }) {
   return (
     <div className="menu-section">
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       {cats?.map((cat, ci) => (
         <div className="menu-cat" id={cat.id} key={ci}>
           {cat.title && <h4 className="menu-cat-title">{cat.title}</h4>}

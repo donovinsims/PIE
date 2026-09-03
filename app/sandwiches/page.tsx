@@ -2,7 +2,10 @@ import { Banner, Intro, MenuSection } from "@/components/Banner";
 import { asset } from "@/lib/assets";
 import { MENU_SANDWICHES } from "@/lib/menus";
 
-export const metadata = { title: "Pietro's Pizzeria Sandwiches Menu | Roscoe, IL" };
+export const metadata = {
+  title: "Pietro's Pizzeria Sandwiches Menu | Roscoe, IL",
+  description: "Explore Pietro's Pizzeria sandwiches in Roscoe, IL. Calzones, Italian beef, and fresh-made subs served with fries for carry out or delivery.",
+};
 
 const p = (f: string) => asset(`le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/${f}`);
 

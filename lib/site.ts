@@ -13,7 +13,7 @@ export const SITE = {
   rating: "4.3",
   ratingTotal: "(783 Reviews)",
   tagline: "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
-  topbarTagline: "Carry Out-Delivery & Dining Area Available!",
+  topbarTagline: "Carry Out, Delivery & Dine-In Available",
   hoursLine: "Hours: Mon - Thu, Sun until 9:45 pm · Fri, Sat until 10:45 pm",
   hoursWeekly: [
     ["Monday", "10:00 am - 9:45 pm"],

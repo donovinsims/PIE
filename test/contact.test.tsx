@@ -2,15 +2,21 @@ import { render, screen } from "@testing-library/react";
 import { expect, test } from "vitest";
 import ContactPage from "@/app/contact/page";
 
-test("contact page renders a working message form with required fields", () => {
+test("contact page renders Tally form embed", () => {
   render(<ContactPage />);
 
-  // The contact form (as deployed) is present with its required fields.
-  expect(screen.getByLabelText("Name *")).toBeRequired();
-  expect(screen.getByLabelText("Email *")).toBeRequired();
-  expect(screen.getByLabelText("Phone *")).toBeRequired();
-  expect(screen.getByLabelText("Message *")).toBeRequired();
+  // The Tally iframe embed is present with the correct form URL.
+  const iframe = screen.getByTitle("Contact Pietro's Pizzeria");
+  expect(iframe).toBeInTheDocument();
+  expect(iframe).toHaveAttribute(
+    "data-tally-src",
+    expect.stringContaining("tally.so/embed/eqXgox")
+  );
+});
 
-  expect(screen.getByRole("button", { name: "Reach Out To Us" })).toBeInTheDocument();
-  expect(screen.getByText(/This site is protected by reCAPTCHA/i)).toBeInTheDocument();
+test("contact page shows address and phone info", () => {
+  render(<ContactPage />);
+
+  expect(screen.getAllByText(/5724 Elevator RD/i).length).toBeGreaterThan(0);
+  expect(screen.getAllByText("Get In Touch With Us").length).toBeGreaterThan(0);
 });

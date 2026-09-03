@@ -3,7 +3,10 @@ import { asset } from "@/lib/assets";
 import { MENU_APPETIZERS } from "@/lib/menus";
 import { SITE } from "@/lib/site";
 
-export const metadata = { title: "Pietro's Pizzeria Appetizer Menu | Roscoe, IL" };
+export const metadata = {
+  title: "Pietro's Pizzeria Appetizer Menu | Roscoe, IL",
+  description: "Start your meal with Pietro's Pizzeria appetizers in Roscoe, IL. Wings, mozzarella sticks, and more — available for delivery and carry out.",
+};
 
 const p = (f: string) => asset(`le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/${f}`);
 

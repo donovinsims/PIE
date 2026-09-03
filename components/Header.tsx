@@ -12,7 +12,8 @@ function Stars({ size = "sm" }: { size?: "sm" | "lg" }) {
   const cls = size === "lg" ? "stars-lg" : "stars";
   return (
     <span className={cls} aria-label="4.3 out of 5 stars">
-      ★★★★★
+      <span className="stars-filled" aria-hidden="true">★★★★</span>
+      <span className="stars-partial" aria-hidden="true" style={{ "--pct": "30%" } as React.CSSProperties}>★</span>
     </span>
   );
 }
