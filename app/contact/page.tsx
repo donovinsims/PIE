@@ -33,13 +33,35 @@ export default function ContactPage() {
       <section className="intro">
         <h3>Get In Touch With Us</h3>
         <p>
-          Our online message form is temporarily unavailable. Please call or email us and we&apos;ll be happy to help.
+          Send us a message. Please fill out the short form and we&apos;ll contact you shortly.
+          <br />
+          <em>Fields marked * are required.</em>
         </p>
       </section>
 
-      <section className="contact-form-section contact-actions">
-        <a className="pill-btn" href={SITE.phoneHref} aria-label={`Call ${SITE.phone}`}>Call {SITE.phone}</a>
-        <a className="pill-btn" href={`mailto:${SITE.email}`}>Email us</a>
+      <section className="contact-form-section">
+        <form className="widget-form" action="#">
+          <div className="form-row">
+            <label htmlFor="name">Name *</label>
+            <input id="name" name="name" required />
+          </div>
+          <div className="form-row">
+            <label htmlFor="email">Email *</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div className="form-row">
+            <label htmlFor="phone">Phone *</label>
+            <input id="phone" name="phone" type="tel" required />
+          </div>
+          <div className="form-row">
+            <label htmlFor="message">Message *</label>
+            <textarea id="message" name="message" required />
+          </div>
+          <p style={{ fontSize: 13, color: "#888" }}>This site is protected by reCAPTCHA.</p>
+          <button className="pill-btn" type="submit">
+            Reach Out To Us
+          </button>
+        </form>
       </section>
     </>
     </div>
