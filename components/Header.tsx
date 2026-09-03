@@ -84,6 +84,19 @@ export default function Header() {
         aria-label="Main navigation"
       >
         <ul className="nav-list">
+          {mobileMenuOpen && (
+            <li className="nav-item nav-item-cta">
+              <a
+                className="nav-link nav-link-cta"
+                href={SITE.orderUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Order now (opens in a new tab)"
+              >
+                Order Now
+              </a>
+            </li>
+          )}
           {NAV_ITEMS.map((item) => {
             const isActive = pathname === item.href || (item.href === "/menu" && menuActive);
             const hasChildren = !!item.children;

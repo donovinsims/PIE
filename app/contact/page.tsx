@@ -41,17 +41,19 @@ export default function ContactPage() {
       </section>
 
       <section className="contact-form-section">
-        <iframe
-          data-tally-src="https://tally.so/embed/eqXgox?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-          loading="lazy"
-          width="100%"
-          height="500"
-          frameBorder={0}
-          marginHeight={0}
-          marginWidth={0}
-          title="Contact Pietro's Pizzeria"
-        />
-        <Script src="https://tally.so/widgets/embed.js" strategy="lazyOnload" />
+        <div className="tally-card">
+          <iframe
+            data-tally-src="https://tally.so/embed/eqXgox?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            loading="lazy"
+            width="100%"
+            height="500"
+            frameBorder={0}
+            marginHeight={0}
+            marginWidth={0}
+            title="Contact Pietro's Pizzeria"
+          />
+          <Script src="https://tally.so/widgets/embed.js" strategy="lazyOnload" />
+        </div>
       </section>
     </div>
   );
