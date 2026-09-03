@@ -10,7 +10,7 @@ export default function DinnersPage() {
   return (
     <div className="page-dinners">
       <>
-      <Banner title="Dinner Menu" bg={p("IMG_7609-2880w.jpg")} />
+      <Banner title="Dinner Menu" bg={p("IMG_7609-2880w.jpg")} mobileBg={p("IMG_7609-640w.jpg")} />
       <Intro title="Order the Perfect Meal for Your Family">
         If you're looking for great food to share with your family or friends, visit Pietro's Pizzeria and take a look
         at our dinner menu. Made using fresh ingredients, we serve homemade food that will titillate your palate. You

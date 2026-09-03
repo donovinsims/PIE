@@ -10,7 +10,11 @@ export default function DessertsPage() {
   return (
     <div className="page-desserts">
       <>
-      <Banner title="Dessert Menu" bg={p("pietrospizzeria-gallery-image-16-1920px-1920w.jpg")} />
+      <Banner
+        title="Dessert Menu"
+        bg={p("pietrospizzeria-gallery-image-16-1920px-1920w.jpg")}
+        mobileBg={p("pietrospizzeria-gallery-image-16-1920px-640w.jpg")}
+      />
       <Intro title="Finish Your Meal With a Delectable Dessert">
         Who does not like to order dessert after a scrumptious meal? At Pietro's Pizzeria, we offer the most delectable
         desserts you will just fall in love with. What are you waiting for? Visit us today and order carry out from our

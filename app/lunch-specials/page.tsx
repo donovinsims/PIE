@@ -10,7 +10,7 @@ export default function LunchSpecialsPage() {
   return (
     <div className="page-lunch-specials">
       <>
-      <Banner title="Lunch Specials" bg={p("IMG_7629-1920w.jpg")} />
+      <Banner title="Lunch Specials" bg={p("IMG_7629-1920w.jpg")} mobileBg={p("IMG_7629-640w.jpg")} />
       <Intro title="Try Our Homemade Lunch Specials">
         At Pietro's Pizzeria, all our food is homemade, using fresh ingredients. We don't use anything pre-made and we
         even grate our own cheese. If you're looking for great lunch options, call us today.

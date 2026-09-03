@@ -1,27 +1,34 @@
 import { SITE } from "@/lib/site";
 import type { MenuCat } from "@/lib/menus";
+import type { CSSProperties } from "react";
 
 export function Banner({
   title,
   tagline = SITE.tagline,
   bg,
+  mobileBg,
   tall = false,
   children,
 }: {
   title: string;
   tagline?: string;
   bg?: string;
+  mobileBg?: string;
   tall?: boolean;
   children?: React.ReactNode;
 }) {
+  const backgroundStyle = bg
+    ? ({ backgroundImage: `url(${bg})`, "--mobile-background-image": `url(${mobileBg ?? bg})` } as CSSProperties)
+    : undefined;
+
   return (
-    <section className={`banner${tall ? " banner-contact" : ""}`} style={bg ? { backgroundImage: `url(${bg})` } : undefined}>
+    <section className={`banner${tall ? " banner-contact" : ""}`} style={backgroundStyle}>
       <div className="banner-inner">
         <h1>{title}</h1>
         <h3>{tagline}</h3>
         <div className="banner-actions">
-          <a className="pill-btn lg" href={SITE.phoneHref}>
-            {SITE.phone}
+          <a className="pill-btn lg" href={SITE.orderUrl}>
+            Order Now
           </a>
           <a className="pill-btn lg" href={SITE.directions}>
             Visit Us at 5724 Elevator RD, Roscoe, IL
@@ -57,7 +64,7 @@ export function MenuSection({
     <div className="menu-section">
       <h3>{title}</h3>
       {cats?.map((cat, ci) => (
-        <div className="menu-cat" key={ci}>
+        <div className="menu-cat" id={cat.id} key={ci}>
           {cat.title && <h4 className="menu-cat-title">{cat.title}</h4>}
           {cat.rows.map((row, ri) => (
             <div className="menu-row-block" key={ri}>

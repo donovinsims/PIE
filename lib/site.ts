@@ -2,6 +2,7 @@ export const SITE = {
   name: "Pietro's Pizzeria",
   phone: "(815) 623-2112",
   phoneHref: "tel:(815) 623-2112",
+  orderUrl: "https://pietrospizza.toast.site/order?diningOption=takeout&rwg_token=AE37R_gxC-2M9RWv5tYaFuz34rd_ERnjpXZ0CVny-2XX5C7BaRyYCUMATVx6dMnwDwZsAmtnn3Y3ExQzvR2wSW-ZULc8IQKokg%3D%3D",
   email: "myaunke75@gmail.com",
   address: "5724 Elevator RD, Roscoe, IL 61073",
   addressShort: "5724 Elevator RD",
@@ -13,7 +14,7 @@ export const SITE = {
   ratingTotal: "(783 Reviews)",
   tagline: "Homemade Food | Fresh Ingredients | Delivery and Carry Out",
   topbarTagline: "Carry Out-Delivery & Dining Area Available!",
-  hoursLine: "Hours: Open • Closes 9:45 pm",
+  hoursLine: "Hours: Mon - Thu, Sun until 9:45 pm · Fri, Sat until 10:45 pm",
   hoursWeekly: [
     ["Monday", "10:00 am - 9:45 pm"],
     ["Tuesday", "10:00 am - 9:45 pm"],

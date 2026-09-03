@@ -10,7 +10,7 @@ export default function EmploymentPage() {
   return (
     <div className="page-employment">
       <>
-      <Banner title="Pietro's Pizzeria Jobs" bg={p("g1-2880w.jpg")} />
+      <Banner title="Pietro's Pizzeria Jobs" bg={p("g1-2880w.jpg")} mobileBg={p("g1-640w.jpg")} />
       <section className="intro">
         <h3>Looking for a New Job?</h3>
         <p>
@@ -20,7 +20,7 @@ export default function EmploymentPage() {
         </p>
       </section>
 
-      <section style={{ padding: "0 40px 40px" }}>
+      <section className="employment-form-section">
         <form
           className="widget-form"
           action="#"

@@ -10,7 +10,7 @@ export default function SandwichesPage() {
   return (
     <div className="page-sandwiches">
       <>
-      <Banner title="Sandwich Menu" bg={p("g1-2880w.jpg")} />
+      <Banner title="Sandwich Menu" bg={p("g1-2880w.jpg")} mobileBg={p("g1-640w.jpg")} />
       <Intro title="Are You Craving a Fresh Homemade Sandwich?">
         Try one of our delicious sandwiches at Pietro's Pizzeria. Sandwiches are made fresh using fresh ingredients
         and served with fries. Visit us for carry out or place your order for delivery.

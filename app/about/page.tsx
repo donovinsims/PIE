@@ -4,7 +4,7 @@ import { SITE } from "@/lib/site";
 
 export const metadata = { title: "About Pietro's Pizzeria | Roscoe, IL" };
 
-const p = (f: string) => asset(`le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/${f}`);
+const ABOUT_BANNER = asset("le-cdn.hibuwebsites.com/md/dmip/dms3rep/multi/opt/living-room-interior-design-white-sofa-2880w.jpg");
 
 const KH = [
   ["Year Established", "1991"],
@@ -23,7 +23,7 @@ export default function AboutPage() {
   return (
     <div className="page-about">
       <>
-      <Banner title="About Pietro's Pizzeria" bg={p("living-room-interior-design-white-sofa-2880w.jpg")} />
+      <Banner title="About Pietro's Pizzeria" bg={ABOUT_BANNER} />
       <section className="about-card">
         <div className="about-cols">
           <div>

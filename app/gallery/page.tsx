@@ -4,6 +4,7 @@ import { asset } from "@/lib/assets";
 export const metadata = { title: "Pietro's Pizzeria Gallery | Roscoe, IL" };
 
 const p = (f: string) => asset(`le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/${f}`);
+const GALLERY_BANNER = "/assets/le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/reviews-gallery-banner-2880w.jpg";
 
 const IMGS = [
   "IMG_1907-1920w.jpg",
@@ -23,13 +24,16 @@ const IMGS = [
   "IMG_7602-1920w.jpg",
   "pietrospizzeria-gallery-image-16-1920px-1920w.jpg",
   "pietrospizzeria-gallery-image-15-1920px-1920w.jpg",
-].map(p);
+].map((file) => ({
+  full: p(file),
+  mobile: p(file.replace("-1920w.jpg", "-640w.jpg")),
+}));
 
 export default function GalleryPage() {
   return (
     <div className="page-gallery">
       <>
-      <Banner title="Pietro's Pizzeria Gallery" bg={p("IMG_7580+(1)-2880w.jpg")} />
+      <Banner title="Pietro's Pizzeria Gallery" bg={GALLERY_BANNER} />
       <section className="intro">
         <h3>Check Out Our Great Food Options</h3>
         <p>
@@ -39,8 +43,15 @@ export default function GalleryPage() {
         </p>
       </section>
       <section className="gallery-grid">
-        {IMGS.map((src, i) => (
-          <img key={i} src={src} alt="" loading="lazy" />
+        {IMGS.map((image) => (
+          <img
+            key={image.full}
+            src={image.full}
+            srcSet={`${image.mobile} 640w, ${image.full} 1920w`}
+            sizes="(max-width: 899px) calc((100vw - 50px) / 2), 280px"
+            alt=""
+            loading="lazy"
+          />
         ))}
       </section>
     </>

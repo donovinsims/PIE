@@ -8,24 +8,24 @@ export default function ContactPage() {
     <div className="page-contact">
       <>
       <Banner title="Contact Pietro's Pizzeria" tall>
-        <div style={{ marginTop: 26, fontSize: 17, color: "#252525" }}>
-          <p style={{ margin: "2px 0", color: "inherit" }}>
+        <div className="contact-hero-details">
+          <p>
             {"5724 Elevator RD, Roscoe, IL 61073"} — <a href={SITE.directions}>Get Directions</a>
           </p>
-          <p style={{ margin: "2px 0", color: "inherit" }}>
+          <p>
             Main: <a href={SITE.phoneHref}>{SITE.phone}</a>
           </p>
-          <p style={{ margin: "2px 0", color: "inherit" }}>{SITE.hoursShort}</p>
+          <p>{SITE.hoursShort}</p>
         </div>
       </Banner>
 
-      <section style={{ padding: "30px 40px" }}>
-        <div className="map-box" style={{ maxWidth: 960, margin: "0 auto" }}>
-          <a href={SITE.directions} aria-label="Open directions in Google Maps" style={{ display: "flex", alignItems: "center", gap: 12 }}>
+      <section className="contact-map-section">
+        <div className="map-box">
+          <a href={SITE.directions} aria-label="Open directions in Google Maps">
             <span className="pin">
               <i />
             </span>
-            <span style={{ color: "#252525" }}>Visit Us — 5724 Elevator RD, Roscoe, IL</span>
+            <span>Visit Us — 5724 Elevator RD, Roscoe, IL</span>
           </a>
         </div>
       </section>
@@ -33,35 +33,13 @@ export default function ContactPage() {
       <section className="intro">
         <h3>Get In Touch With Us</h3>
         <p>
-          Send us a message. Please fill out the short form and we'll contact you shortly.
-          <br />
-          <em>Fields marked * are required.</em>
+          Our online message form is temporarily unavailable. Please call or email us and we&apos;ll be happy to help.
         </p>
       </section>
 
-      <section style={{ padding: "0 40px 60px" }}>
-        <form className="widget-form" action="#">
-          <div className="form-row">
-            <label htmlFor="name">Name *</label>
-            <input id="name" name="name" required />
-          </div>
-          <div className="form-row">
-            <label htmlFor="email">Email *</label>
-            <input id="email" name="email" type="email" required />
-          </div>
-          <div className="form-row">
-            <label htmlFor="phone">Phone *</label>
-            <input id="phone" name="phone" type="tel" required />
-          </div>
-          <div className="form-row">
-            <label htmlFor="message">Message *</label>
-            <textarea id="message" name="message" required />
-          </div>
-          <p style={{ fontSize: 13, color: "#888" }}>This site is protected by reCAPTCHA.</p>
-          <button className="pill-btn" type="submit">
-            Reach Out To Us
-          </button>
-        </form>
+      <section className="contact-form-section contact-actions">
+        <a className="pill-btn" href={SITE.phoneHref} aria-label={`Call ${SITE.phone}`}>Call {SITE.phone}</a>
+        <a className="pill-btn" href={`mailto:${SITE.email}`}>Email us</a>
       </section>
     </>
     </div>

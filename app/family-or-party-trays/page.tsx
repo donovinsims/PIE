@@ -10,7 +10,7 @@ export default function PartyTraysPage() {
   return (
     <div className="page-family-or-party-trays">
       <>
-      <Banner title="Family or Party Trays" bg={p("IMG_7601-2880w.jpg")} />
+      <Banner title="Family or Party Trays" bg={p("IMG_7601-2880w.jpg")} mobileBg={p("IMG_7601-640w.jpg")} />
       <Intro title="Family or Party Trays for a Special Event">
         Are you planning a family celebration or a special event? At Pietro's Pizzeria, we have a special party tray
         menu that you can choose from. All the dishes are carefully chosen and combined to make sure everyone is well

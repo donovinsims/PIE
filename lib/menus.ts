@@ -1,30 +1,30 @@
 // Auto-generated from source rendered.html - menu data per page.
 export type MenuSub = { name: string; price: string };
 export type MenuRow = { name?: string; price?: string; subs?: MenuSub[]; desc?: string[] };
-export type MenuCat = { title: string; rows: MenuRow[] };
+export type MenuCat = { title: string; rows: MenuRow[]; id?: string };
 export const MENU_MENU: MenuCat[] = [
-  { title: "Pietros Pizzeria", rows: [
+  { id: "pizza", title: "Pietros Pizzeria", rows: [
     {"name": "Cheese", "subs": [{"name": "12\" Medium", "price": "$12.35"}, {"name": "14\" Large", "price": "$13.35"}, {"name": "16\" X-Large", "price": "$14.35"}]},
     {"name": "Each Topping", "subs": [{"name": "12\" Medium", "price": "$1.50"}, {"name": "14\" Large", "price": "$1.75"}, {"name": "16\" X-Large", "price": "$2.00"}]},
     {"name": "10\\\" GF Cheese", "subs": [{"name": "", "price": "$13.35"}]},
     {"name": "10\\\" GF Cauliflower", "subs": [{"name": "", "price": "$14.35"}]},
     {"name": "INGREDIENTS", "desc": ["Sausage | Pepperoni | Mushrooms | Green Peppers | Green Olives | Black Olives | Bacon | Onions"]},
   ] },
-  { title: "Pietro's Deluxe", rows: [
+  { id: "deluxe", title: "Pietro's Deluxe", rows: [
     {"subs": [{"name": "12\" Medium", "price": "$21.05"}, {"name": "14\" Large", "price": "$23.05"}, {"name": "16\" X-Large", "price": "$25.05"}]},
     {"desc": ["EVERYTHING ABOVE NO SUBSTITUTIONS ALLOWED"]},
     {"name": "Additional Toppings:", "desc": ["Ham | Anchovies | Pineapple | Spinach | Hamburger | Jalapeno | Shrimp | Tomato | Garlic"]},
-    {"name": "Items on the Side:", "subs": [{"name": "", "price": "$0.90"}, {"name": "", "price": "$0.90"}, {"name": "", "price": "$0.90"}, {"name": "", "price": "$1.40"}]},
+    {"name": "Items on the Side:", "subs": [{"name": "Sauce", "price": "$0.90"}, {"name": "Garlic Butter", "price": "$0.90"}, {"name": "Pepperoncini", "price": "$0.90"}, {"name": "Hot Giardiniera", "price": "$1.40"}]},
   ] },
-  { title: "Pietro's Thick Pizza", rows: [
+  { id: "thick", title: "Pietro's Thick Pizza", rows: [
     {"name": "Cheese", "subs": [{"name": "12\" Medium", "price": "$13.85"}, {"name": "14\" Large", "price": "$14.85"}, {"name": "16\" X-Large", "price": "$15.85"}]},
     {"name": "Each Topping", "subs": [{"name": "12\" Medium", "price": "$1.75"}, {"name": "14\" Large", "price": "$2.00"}, {"name": "16\" X-Large", "price": "$2.25"}]},
   ] },
-  { title: "Pietro's Pan Pizza", rows: [
+  { id: "pan", title: "Pietro's Pan Pizza", rows: [
     {"name": "Cheese", "subs": [{"name": "12\" Medium", "price": "$14.85"}, {"name": "14\" Large", "price": "$15.85"}, {"name": "16\" X-Large", "price": "$16.85"}]},
     {"name": "Each Topping", "subs": [{"name": "12\" Medium", "price": "$1.75"}, {"name": "14\" Large", "price": "$2.00"}, {"name": "16\" X-Large", "price": "$2.25"}]},
   ] },
-  { title: "Pietro's Stuffed Pizza", rows: [
+  { id: "stuffed", title: "Pietro's Stuffed Pizza", rows: [
     {"name": "Cheese", "subs": [{"name": "12\" Medium", "price": "$15.85"}, {"name": "14\" Large", "price": "$16.85"}, {"name": "16\" X-Large", "price": "$17.85"}]},
     {"name": "Each Topping", "subs": [{"name": "12\" Medium", "price": "$1.75"}, {"name": "14\" Large", "price": "$2.00"}, {"name": "16\" X-Large", "price": "$2.25"}]},
   ] },
@@ -82,7 +82,7 @@ export const MENU_SANDWICHES: MenuCat[] = [
     {"name": "Chicken Sandwich", "price": "$9.60"},
     {"name": "Chicken Parm. Sandwich", "price": "$10.00"},
     {"name": "Hot Calzone", "price": "$9.10", "desc": ["Ham, Pepperoni, Salami, Mozarella & Special Sauce"]},
-    {"name": "Calzone", "price": "$9.60", "subs": [{"name": "", "price": "$9.60"}, {"name": "", "price": "$0.90"}]},
+    {"name": "Calzone", "subs": [{"name": "Create Your Own — Up to Three Toppings", "price": "$9.60"}, {"name": "Added Topping", "price": "$0.90 each"}]},
   ] },
   { title: "Extras", rows: [
     {"name": "Au Jus", "price": "$1.00"},

@@ -10,12 +10,13 @@ export default function MenuPage() {
   return (
     <div className="page-menu">
       <>
-      <Banner title="Pizza Menu" bg={p("IMG_7606-2880w.jpg")} />
+      <Banner title="Pizza Menu" bg={p("IMG_7606-2880w.jpg")} mobileBg={p("IMG_7606-640w.jpg")} />
       <Intro title="Never Say No to Freshly Made, Homemade Pizza!">
         Is there anybody out there who does not love pizza? Hardly anybody, right? Contact Pietro's Pizzeria for
         amazing homemade pizza. We also have gluten-free crust and cauliflower crust options. We even grate our own
-        cheese. Check out our <a href="/menu">pizza menu</a>. You can order delivery or carry out. Call us today!
+        cheese. You can order delivery or carry out. Call us today!
       </Intro>
+      <nav className="menu-jumps" aria-label="Pizza menu categories">{MENU_MENU.map((cat) => <a href={`#${cat.id}`} key={cat.id}>{cat.title}</a>)}</nav>
       <MenuSection title="Menu" cats={MENU_MENU} note="Plus tax and delivery. Prices subject to change. No substitutions allowed." />
     </>
     </div>
