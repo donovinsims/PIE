@@ -153,8 +153,9 @@ button {
   padding-top: 15px;
 }
 body:has(.hero) .site-header {
-  /* The source header is a continuous dark, translucent band over the hero. */
-  background: rgba(0, 0, 0, 0.67);
+  /* The hero photo is no longer dimmed, so keep the header solid black
+     instead of a 67% scrim that reads grey over a bright photo. */
+  background: #000;
 }
 body:has(.hero) .topbar {
   height: 156px;
@@ -290,7 +291,6 @@ body:has(.hero) .topbar {
   margin-left: 6px;
   font-size: 12px;
 }
-.nav-submenu-toggle,
 .mobile-menu-toggle {
   display: none;
 }
@@ -1629,24 +1629,17 @@ a.skip-link:focus-visible {
     border-radius: 0;
     font-size: 16px;
   }
+  /* The Menu link is the disclosure control, so its caret must stay visible. */
   .nav-caret {
-    display: none;
+    display: inline-block;
+    margin-left: 8px;
+    transition: transform 0.15s ease;
   }
-  .nav-submenu-toggle {
-    display: inline-flex;
-    width: 56px;
-    height: 56px;
-    border: 0;
-    background: transparent;
+  .nav-link[aria-expanded="true"] .nav-caret {
+    transform: rotate(180deg);
+  }
+  .nav-link[aria-expanded="true"] {
     color: #fff;
-    align-items: center;
-    justify-content: center;
-    font-size: 17px;
-    cursor: pointer;
-  }
-  .nav-submenu-toggle:focus-visible {
-    outline: 2px solid #fff;
-    outline-offset: -4px;
   }
   .nav-drop {
     position: static;

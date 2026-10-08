@@ -76,7 +76,7 @@ export default function HomePage() {
 
       {/* STOP AND SMELL THE ROSES */}
       <section className="stop-band">
-        <h2>STOP AND SMELL THE ROSES EVERY DAY!</h2>
+        <h2>Stop and smell the roses every day!</h2>
         <p>Take a look at our spacious new dining area and some of our quality food options.</p>
       </section>
 

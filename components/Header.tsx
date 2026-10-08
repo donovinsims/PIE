@@ -18,12 +18,27 @@ function Stars({ size = "sm" }: { size?: "sm" | "lg" }) {
   );
 }
 
+function useIsCompact() {
+  const [isCompact, setIsCompact] = useState(false);
+  useEffect(() => {
+    // jsdom and some SSR/test environments do not implement matchMedia.
+    if (typeof window.matchMedia !== "function") return;
+    const query = window.matchMedia("(max-width: 899px)");
+    const sync = () => setIsCompact(query.matches);
+    sync();
+    query.addEventListener("change", sync);
+    return () => query.removeEventListener("change", sync);
+  }, []);
+  return isCompact;
+}
+
 export default function Header() {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [menuExpanded, setMenuExpanded] = useState(false);
   const menuToggleRef = useRef<HTMLButtonElement>(null);
   const firstNavLinkRef = useRef<HTMLAnchorElement>(null);
+  const isCompact = useIsCompact();
   const menuActive = MENU_CHILD_PATHS.includes(pathname);
   const closeMobileNavigation = () => {
     setMobileMenuOpen(false);
@@ -116,44 +131,48 @@ export default function Header() {
           {NAV_ITEMS.map((item) => {
             const isActive = pathname === item.href || (item.href === "/menu" && menuActive);
             const hasChildren = !!item.children;
+            // One control per label: on compact screens the Menu link is a
+            // disclosure button (the pizza page lives inside the submenu);
+            // on desktop it stays a link and the submenu opens on hover/focus.
+            const togglesMenu = hasChildren && isCompact;
+            const children = togglesMenu && !item.children!.some((c) => c.href === item.href)
+              ? [{ label: "Pizza", href: item.href }, ...item.children!]
+              : item.children;
             return (
               <li className="nav-item" key={item.label}>
                 <Link
                   href={item.href}
                   className={`nav-link${isActive ? " active" : ""}`}
-                  aria-current={isActive ? "page" : undefined}
-                  onClick={closeMobileNavigation}
+                  aria-current={isActive && !togglesMenu ? "page" : undefined}
+                  aria-expanded={togglesMenu ? menuExpanded : undefined}
+                  aria-haspopup={togglesMenu ? "true" : undefined}
+                  onClick={(event) => {
+                    if (togglesMenu) {
+                      event.preventDefault();
+                      setMenuExpanded((open) => !open);
+                      return;
+                    }
+                    closeMobileNavigation();
+                  }}
                   ref={item.label === "Home" ? firstNavLinkRef : undefined}
                 >
                   {item.label}
                   {hasChildren && <span className="nav-caret" aria-hidden="true">▾</span>}
                 </Link>
                 {hasChildren && (
-                  <>
-                    <button
-                      className="nav-submenu-toggle"
-                      type="button"
-                      aria-label={`${menuExpanded ? "Collapse" : "Expand"} ${item.label} submenu`}
-                      aria-controls="menu-submenu"
-                      aria-expanded={menuExpanded}
-                      onClick={() => setMenuExpanded((open) => !open)}
-                    >
-                      <span aria-hidden="true">▾</span>
-                    </button>
-                    <div className={`nav-drop${menuExpanded ? " open" : ""}`} id="menu-submenu">
-                      {item.children!.map((c) => (
-                        <Link
-                          key={c.href}
-                          href={c.href}
-                          className={`nav-drop-link${pathname === c.href ? " active" : ""}`}
-                          aria-current={pathname === c.href ? "page" : undefined}
-                          onClick={closeMobileNavigation}
-                        >
-                          {c.label}
-                        </Link>
-                      ))}
-                    </div>
-                  </>
+                  <div className={`nav-drop${menuExpanded ? " open" : ""}`} id={`menu-submenu-${item.label}`}>
+                    {children!.map((c) => (
+                      <Link
+                        key={c.href}
+                        href={c.href}
+                        className={`nav-drop-link${pathname === c.href ? " active" : ""}`}
+                        aria-current={pathname === c.href ? "page" : undefined}
+                        onClick={closeMobileNavigation}
+                      >
+                        {c.label}
+                      </Link>
+                    ))}
+                  </div>
                 )}
               </li>
             );
