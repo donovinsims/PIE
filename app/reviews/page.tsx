@@ -30,8 +30,7 @@ export default function ReviewsPage() {
           </a>
         </div>
         <div className="reviews-tabs">
-          <span className="tab active">All (4.3 / 783 Ratings)</span>
-          <span className="tab">(4.4 / 649 Ratings)</span>
+          <span className="tab active reviews-stat-badge">{SITE.rating} / {SITE.ratingTotal}</span>
         </div>
       </section>
       <section>

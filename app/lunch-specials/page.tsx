@@ -1,4 +1,4 @@
-import { Banner, Intro, MenuSection } from "@/components/Banner";
+import { Banner, Intro, MenuSection, OrderCta } from "@/components/Banner";
 import { asset } from "@/lib/assets";
 import { MENU_LUNCH_SPECIALS } from "@/lib/menus";
 
@@ -19,6 +19,7 @@ export default function LunchSpecialsPage() {
         even grate our own cheese. If you're looking for great lunch options, call us today.
       </Intro>
       <MenuSection title="Menu" cats={MENU_LUNCH_SPECIALS} note="Plus tax and delivery. Prices subject to change. No substitutions allowed." />
+      <OrderCta />
     </>
     </div>
     

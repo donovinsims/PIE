@@ -3,11 +3,11 @@ export type MenuSub = { name: string; price: string };
 export type MenuRow = { name?: string; price?: string; subs?: MenuSub[]; desc?: string[] };
 export type MenuCat = { title: string; rows: MenuRow[]; id?: string };
 export const MENU_MENU: MenuCat[] = [
-  { id: "pizza", title: "Pietros Pizzeria", rows: [
+  { id: "pizza", title: "Our Pizzas", rows: [
     {"name": "Cheese", "subs": [{"name": "12\" Medium", "price": "$12.35"}, {"name": "14\" Large", "price": "$13.35"}, {"name": "16\" X-Large", "price": "$14.35"}]},
     {"name": "Each Topping", "subs": [{"name": "12\" Medium", "price": "$1.50"}, {"name": "14\" Large", "price": "$1.75"}, {"name": "16\" X-Large", "price": "$2.00"}]},
-    {"name": "10\\\" GF Cheese", "subs": [{"name": "", "price": "$13.35"}]},
-    {"name": "10\\\" GF Cauliflower", "subs": [{"name": "", "price": "$14.35"}]},
+    {"name": "10\" GF Cheese", "subs": [{"name": "", "price": "$13.35"}]},
+    {"name": "10\" GF Cauliflower", "subs": [{"name": "", "price": "$14.35"}]},
     {"name": "INGREDIENTS", "desc": ["Sausage | Pepperoni | Mushrooms | Green Peppers | Green Olives | Black Olives | Bacon | Onions"]},
   ] },
   { id: "deluxe", title: "Pietro's Deluxe", rows: [

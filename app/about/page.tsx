@@ -7,7 +7,7 @@ export const metadata = {
   description: "Learn about Pietro's Pizzeria in Roscoe, IL. Family-owned since 1991, serving homemade pizza, sandwiches, and desserts with fresh ingredients daily.",
 };
 
-const ABOUT_BANNER = asset("le-cdn.hibuwebsites.com/md/dmip/dms3rep/multi/opt/living-room-interior-design-white-sofa-2880w.jpg");
+const ABOUT_BANNER = asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/IMG_7628-1920w.jpg");
 
 const KH = [
   ["Year Established", "1991"],

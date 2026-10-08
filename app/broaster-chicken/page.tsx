@@ -1,9 +1,9 @@
-import { Banner, Intro, MenuSection } from "@/components/Banner";
+import { Banner, Intro, MenuSection, OrderCta } from "@/components/Banner";
 import { asset } from "@/lib/assets";
 import { MENU_BROADSTER_CHICKEN } from "@/lib/menus";
 
 export const metadata = {
-  title: "Pietro's Pizzeria Broaster Chicken | Roscoe, IL",
+  title: "Broaster Chicken | Roscoe, IL",
   description: "Try Pietro's Pizzeria Broaster Chicken in Roscoe, IL. Crispy, juicy broasted chicken available for dine-in, carry out, or delivery.",
 };
 
@@ -11,7 +11,7 @@ const p = (f: string) => asset(`le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb
 
 export default function BroasterChickenPage() {
   return (
-    <div className="page-broadster-chicken">
+    <div className="page-broaster-chicken">
       <>
       <Banner title="Broaster Chicken" bg={p("IMG_7579-2880w.jpg")} />
       <Intro title="Try Our Popular Broaster Chicken">
@@ -19,6 +19,7 @@ export default function BroasterChickenPage() {
         Pizzeria and place an order for delivery or carry out.
       </Intro>
       <MenuSection title="Menu" cats={MENU_BROADSTER_CHICKEN} note="Plus tax and delivery. Prices subject to change. No substitutions allowed." />
+      <OrderCta />
     </>
     </div>
     

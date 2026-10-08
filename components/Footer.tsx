@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { SITE } from "@/lib/site";
 
 export default function Footer() {
@@ -9,17 +8,17 @@ export default function Footer() {
           <div className="footer-col">
             <h3>Visit us</h3>
             <p>
-              5724 Elevator RD
-              <br />
-              Roscoe, IL 61073
+              <a href={SITE.directions}>
+                5724 Elevator RD
+                <br />
+                Roscoe, IL 61073
+              </a>
             </p>
           </div>
           <div className="footer-col">
             <h3>Hours</h3>
             <p>
-              Mon - Thu, Sun 10:00 am - 9:45 pm
-              <br />
-              Fri, Sat 10:00 am - 10:45 pm
+              {SITE.hoursShort}
             </p>
           </div>
           <div className="footer-col">
@@ -31,7 +30,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-directions">
-        <a href={SITE.directions}>Get Directions</a>
+        <a className="pill-btn" href={SITE.directions}>Get Directions</a>
       </div>
       <div className="footer-social">
         <a href={SITE.facebook} aria-label="Facebook" style={{ display: "inline-flex" }}>
@@ -45,11 +44,11 @@ export default function Footer() {
         </a>
       </div>
       <div className="footer-policy">
-        <a href="http://budurl.com/hibuprivacy">Privacy Policy</a>
-        <a href="http://budurl.com/hibucookie">Do Not Share My Information</a>
-        <a href="http://budurl.com/hibuconditionsofuse">Conditions of Use</a>
-        <a href="http://budurl.com/hibunotice">Notice and Take Down Policy</a>
-        <a href="http://b.link/accessibility">Website Accessibility Policy</a>
+        <a className="footer-link" href="http://budurl.com/hibuprivacy">Privacy Policy</a>
+        <a className="footer-link" href="http://budurl.com/hibucookie">Do Not Share My Information</a>
+        <a className="footer-link" href="http://budurl.com/hibuconditionsofuse">Conditions of Use</a>
+        <a className="footer-link" href="http://budurl.com/hibunotice">Notice and Take Down Policy</a>
+        <a className="footer-link" href="http://b.link/accessibility">Website Accessibility Policy</a>
       </div>
       <div className="footer-copy">
         © 2026 The content on this website is owned by us and our licensors. Do not copy any content (including images)
