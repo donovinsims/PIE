@@ -18,19 +18,16 @@ export default function ReviewsPage() {
         <h2 className="reviews-heading">
           Here's what our satisfied customers are saying...
         </h2>
-        <div className="rating-big">( 4.3 )</div>
-        <div className="stars-lg">
+        <div className="rating-big">{SITE.rating}</div>
+        <div className="stars-lg" role="img" aria-label={`Rated ${SITE.rating} out of 5 stars`}>
           <span className="stars-filled" aria-hidden="true">★★★★</span>
           <span className="stars-partial" aria-hidden="true" style={{ "--pct": "30%" } as React.CSSProperties}>★</span>
         </div>
-        <div className="reviews-rating-note">Overall Rating</div>
+        <div className="reviews-rating-note">Overall Rating · {SITE.ratingTotal}</div>
         <div className="reviews-actions" style={{ marginTop: 14 }}>
           <a className="pill-btn sm" href="https://www.pietrospizzeria.net/reviews#write-review">
             Write Review
           </a>
-        </div>
-        <div className="reviews-tabs">
-          <span className="tab active reviews-stat-badge">{SITE.rating} / {SITE.ratingTotal}</span>
         </div>
       </section>
       <section>

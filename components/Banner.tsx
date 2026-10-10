@@ -21,8 +21,12 @@ export function Banner({
     ? ({ backgroundImage: `url(${bg})`, "--mobile-background-image": `url(${mobileBg ?? bg})` } as CSSProperties)
     : undefined;
 
+  // Photo banners get the scrimmed treatment; photo-less banners collapse to
+  // their content so they never render as a tall empty void. `banner-contact`
+  // is kept for backwards compatibility with existing CSS overrides.
+  const variant = bg ? " banner--photo" : " banner--bare";
   return (
-    <section className={`banner${tall ? " banner-contact" : ""}`} style={backgroundStyle}>
+    <section className={`banner${variant}${tall ? " banner-contact" : ""}`} style={backgroundStyle}>
       <div className="banner-inner">
         <h1>{title}</h1>
         {tagline && <p className="banner-tagline">{tagline}</p>}

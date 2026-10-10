@@ -18,20 +18,20 @@ export default function EmploymentPage() {
         <h2>Looking for a New Job?</h2>
         <p>
           If you're looking for a new career, reach out to Pietro's Pizzeria. We might have the right job opportunity
-          for you. Fill out our form below and attach your latest resume, and we will get in touch with you soon. Call
-          us for more details.
+          for you. Call us for more details, or send your latest resume and we will get in touch with you soon.
         </p>
       </section>
 
-      {/* Optional follow-up: embed a Tally form here for online job applications. */}
       <section className="employment-form-section">
         <div className="widget-form employment-form">
           <h2 className="employment-form-title">
             Apply for a Job With Us
           </h2>
-          <p className="employment-form-alt">
-            Call us or email your resume and we will get in touch with you soon.
-          </p>
+          <ol className="employment-steps">
+            <li>Call us to ask about current openings.</li>
+            <li>Email your latest resume.</li>
+            <li>We will get in touch with you soon.</li>
+          </ol>
           <div className="contact-actions">
             <a className="pill-btn" href={SITE.phoneHref}>Call {SITE.phone}</a>
             <a className="pill-btn" href={`mailto:${SITE.email}?subject=Job Application`}>Email Your Resume</a>

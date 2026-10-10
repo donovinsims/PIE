@@ -43,13 +43,13 @@ export default function Footer() {
           </svg>
         </a>
       </div>
-      <div className="footer-policy">
+      <nav className="footer-policy" aria-label="Legal">
         <a className="footer-link" href="http://budurl.com/hibuprivacy">Privacy Policy</a>
         <a className="footer-link" href="http://budurl.com/hibucookie">Do Not Share My Information</a>
         <a className="footer-link" href="http://budurl.com/hibuconditionsofuse">Conditions of Use</a>
         <a className="footer-link" href="http://budurl.com/hibunotice">Notice and Take Down Policy</a>
         <a className="footer-link" href="http://b.link/accessibility">Website Accessibility Policy</a>
-      </div>
+      </nav>
       <div className="footer-copy">
         © 2026 The content on this website is owned by us and our licensors. Do not copy any content (including images)
         without our consent.

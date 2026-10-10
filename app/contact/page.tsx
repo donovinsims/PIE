@@ -46,13 +46,17 @@ export default function ContactPage() {
             data-tally-src="https://tally.so/embed/eqXgox?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
             loading="lazy"
             width="100%"
-            height="500"
+            height="300"
             frameBorder={0}
             marginHeight={0}
             marginWidth={0}
             title="Contact Pietro's Pizzeria"
           />
           <Script src="https://tally.so/widgets/embed.js" strategy="lazyOnload" />
+          <p className="tally-fallback">
+            Having trouble with the form? Call us at <a href={SITE.phoneHref}>{SITE.phone}</a> or email{" "}
+            <a href={`mailto:${SITE.email}`}>{SITE.email}</a> — we&apos;ll get back to you shortly.
+          </p>
         </div>
       </section>
     </div>

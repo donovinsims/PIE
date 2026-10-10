@@ -383,26 +383,53 @@ body:has(.hero) .topbar {
   background: rgba(193, 0, 0, 0.18);
 }
 
-/* ---------- Banner (inner pages) ---------- */
+/* ---------- Banner (inner pages) ----------
+   Two variants, both sized to their content so a banner never renders as a
+   tall empty void:
+   - .banner--photo: fixed-height scrimmed photo band (title stays legible,
+     photo still reads as food).
+   - .banner--bare: compact dark band with a red keyline; no photo needed. */
 .banner {
-  height: 360px;
-  overflow: visible;
+  min-height: 0;
+  overflow: hidden;
   display: flex;
-  align-items: flex-start;
-  background-color: var(--footer-dark);
-  background-size: cover;
-  background-position: center center;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b1b1b;
   position: relative;
-  padding: 40px 40px 30px;
+  padding: 60px 40px 54px;
+}
+.banner--bare {
+  border-top: 3px solid var(--accent);
+}
+.banner--photo {
+  min-height: 320px;
+  padding: 76px 40px 68px;
+  background-size: cover;
+  background-position: center 62%;
 }
 .banner::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+.banner--bare::before {
+  content: none;
+}
+.banner--photo::before {
+  /* Bottom-weighted scrim: lighter up top so the food photo reads,
+     deeper behind the title for legibility. */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.28) 0%,
+    rgba(0, 0, 0, 0.42) 55%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
 }
 .banner.banner-contact {
-  min-height: 580px;
+  /* Legacy tall variant retained for compatibility; content-sized now. */
+  min-height: 0;
 }
 .banner-inner {
   width: 940px;
@@ -411,24 +438,24 @@ body:has(.hero) .topbar {
   position: relative;
   z-index: 1;
   text-align: center;
-  padding-top: 90px;
 }
 .banner h1 {
   font-family: "Quicksand", sans-serif;
   font-size: 40px;
   font-weight: 400;
   color: #fff;
-  line-height: 60px;
+  line-height: 1.25;
   text-align: center;
+  text-wrap: balance;
 }
 .banner-tagline {
   font-family: "Quicksand", sans-serif;
   font-size: 17px;
   font-weight: 400;
-  color: #fff;
-  line-height: 34px;
+  color: rgba(255, 255, 255, 0.92);
+  line-height: 1.6;
   text-align: center;
-  margin-top: 9px;
+  margin: 12px 0 0;
 }
 
 /* ---------- Intro block (menu template pages) ---------- */
@@ -457,14 +484,18 @@ body:has(.hero) .topbar {
   margin: 0 auto 48px;
   padding: 0 40px 40px;
 }
-.menu-section h2 {
+.menu-section > h2 {
   font-family: "Quicksand", sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-  color: var(--accent);
-  line-height: 30px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #6f6f6f;
+  line-height: 20px;
   text-align: left;
-  margin: 15px 0 0;
+  margin: 12px 0 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e7e7e7;
 }
 .menu-cat {
   scroll-margin-top: 84px;
@@ -481,9 +512,10 @@ body:has(.hero) .topbar {
   font-size: 26px;
   font-weight: 700;
   color: var(--accent);
-  line-height: 30px;
-  padding: 24px 0 16px;
+  line-height: 1.2;
+  padding: 28px 0 4px;
   text-align: left;
+  text-wrap: balance;
 }
 .menu-cat + .menu-cat {
   border-top: 1px solid #e5e5e5;
@@ -614,6 +646,9 @@ body:has(.hero) .topbar {
   margin: 0;
   color: #666;
   text-align: center;
+}
+.hero-upsell + .hero-upsell {
+  margin-top: 4px;
 }
 .hero-tagline {
   font-family: "Quicksand", sans-serif;
@@ -829,8 +864,8 @@ body:has(.hero) .topbar {
 
 /* ---------- Footer ---------- */
 .site-footer {
-  background: var(--footer-dark);
-  padding-bottom: 49px;
+  background: var(--footer-band);
+  padding-bottom: 0;
 }
 .footer-info {
   background: #fff;
@@ -839,8 +874,7 @@ body:has(.hero) .topbar {
 .footer-band {
   background: #fff;
   text-align: center;
-  padding: 32px 40px;
-  min-height: 64px;
+  padding: 28px 40px 22px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -866,6 +900,10 @@ body:has(.hero) .topbar {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e7e7e7;
 }
 .footer-col {
   flex: 1;
@@ -874,9 +912,12 @@ body:has(.hero) .topbar {
 }
 .footer-col h3 {
   font-family: "Quicksand", sans-serif;
-  font-size: 16px;
-  color: var(--text);
-  line-height: 24px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #6f6f6f;
+  line-height: 20px;
   margin-bottom: 8px;
 }
 .footer-col p {
@@ -887,9 +928,8 @@ body:has(.hero) .topbar {
 }
 .footer-directions {
   background: var(--footer-band);
-  padding: 24px 40px;
+  padding: 20px 40px 8px;
   text-align: center;
-  min-height: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -899,7 +939,7 @@ body:has(.hero) .topbar {
 }
 .footer-policy {
   background: var(--footer-band);
-  padding: 16px 40px;
+  padding: 8px 40px;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 500;
@@ -908,8 +948,7 @@ body:has(.hero) .topbar {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 12px 18px;
-  min-height: 64px;
+  gap: 4px 18px;
   line-height: 1.6;
 }
 .footer-policy a {
@@ -929,8 +968,7 @@ body:has(.hero) .topbar {
   font-size: 12.5px;
   color: #555;
   text-align: center;
-  padding: 16px 40px;
-  min-height: 64px;
+  padding: 8px 40px 24px;
   line-height: 1.6;
   display: flex;
   align-items: center;
@@ -941,8 +979,7 @@ body:has(.hero) .topbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 64px;
-  padding: 16px 40px 8px;
+  padding: 8px 40px;
   gap: 10px;
 }
 .footer-social a {
@@ -1100,28 +1137,71 @@ body:has(.hero) .topbar {
   padding: 10px 40px 40px;
 }
 .gallery-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
 }
 .gallery-thumb {
+  position: relative;
   padding: 0;
   border: 0;
-  background: none;
+  background: #111;
   cursor: pointer;
   display: block;
-  border-radius: 2px;
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 0;
   line-height: 0;
+  min-height: 44px;
+  aspect-ratio: 4 / 3;
 }
 .gallery-thumb img {
-  width: 280px;
-  height: 210px;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
   object-fit: cover;
+  transition: transform 0.35s ease;
+}
+.gallery-thumb:hover img {
+  transform: scale(1.04);
+}
+.gallery-thumb:active img {
+  transform: scale(0.98);
 }
 .gallery-thumb:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
+}
+.gallery-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  padding: 30px 12px 10px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.78) 0%, transparent 100%);
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.35;
+  text-align: left;
+  text-wrap: pretty;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.gallery-thumb:hover .gallery-caption,
+.gallery-thumb:focus-visible .gallery-caption {
+  opacity: 1;
+  transform: none;
+}
+@media (hover: none) {
+  /* Touch devices have no hover: captions stay visible. */
+  .gallery-caption {
+    opacity: 1;
+    transform: none;
+  }
 }
 /* Lightbox */
 .gallery-lightbox {
@@ -1193,6 +1273,10 @@ body:has(.hero) .topbar {
   align-items: center;
   justify-content: center;
 }
+.lightbox-btn svg {
+  display: block;
+  flex: 0 0 auto;
+}
 .lightbox-btn:hover {
   background: rgba(255, 255, 255, 0.15);
 }
@@ -1210,6 +1294,13 @@ body:has(.hero) .topbar {
 @media (prefers-reduced-motion: reduce) {
   .gallery-lightbox[open] {
     animation: none;
+  }
+  .gallery-thumb img {
+    transition: none;
+  }
+  .gallery-thumb:hover img,
+  .gallery-thumb:active img {
+    transform: none;
   }
 }
 
@@ -1245,34 +1336,87 @@ body:has(.hero) .topbar {
   color: var(--text);
 }
 
-/* ---------- Map placeholder ---------- */
+/* ---------- Map / directions card ----------
+   No map embed: a directions link styled as an intentional card with a faint
+   street-grid texture, a seated pin, and a chevron affordance. */
 .map-box {
   position: relative;
-  border: 1px solid #ddd;
-  background: #dce3e8;
+  border: 1px solid #d3dade;
+  border-radius: 10px;
+  background-color: #edf1f4;
+  background-image:
+    linear-gradient(rgba(20, 40, 60, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(20, 40, 60, 0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
   min-height: 180px;
   max-width: 960px;
   margin: 0 auto;
   display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.map-box a {
+  width: 100%;
+  min-height: 180px;
+  display: flex;
   align-items: center;
   justify-content: center;
+  gap: 14px;
+  color: var(--text);
+  padding: 28px 48px 28px 24px;
+  text-decoration: none !important;
+  position: relative;
 }
-.map-box a { width: 100%; min-height: 180px; display: flex; align-items: center; justify-content: center; gap: 12px; color: var(--text); padding: 20px; }
+.map-box a:hover {
+  background: rgba(193, 0, 0, 0.05);
+}
+.map-box a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.map-box a > span:last-child {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--text);
+}
+.map-box a:hover > span:last-child {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.map-box a::after {
+  /* Chevron affordance: pure CSS shape, no extra copy announced. */
+  content: "";
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  border-top: 3px solid var(--accent);
+  border-right: 3px solid var(--accent);
+  transform: translateY(-50%) rotate(45deg);
+}
 .map-box .pin {
-  width: 42px;
-  height: 42px;
+  position: relative;
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
   background: var(--accent);
   border-radius: 50% 50% 50% 0;
   transform: rotate(-45deg);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 .map-box .pin i {
-  width: 22px;
-  height: 22px;
-  background: #dce3e8;
+  width: 18px;
+  height: 18px;
+  background: #fff;
   border-radius: 50%;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 11px;
+  left: 11px;
 }
 
 /* ---------- Focus / keyboard (accessibility) ---------- */
@@ -1451,12 +1595,14 @@ a.skip-link:focus-visible {
 
 /* ---------- Per-page calibration (pixel loop) ---------- */
 .intro { height: auto; padding-top: 26px; padding-bottom: 18px; }
-.page-contact .banner { height: auto; min-height: 580px; background: var(--footer-dark); }
-.page-contact .banner::before { background: rgba(0, 0, 0, 0.2); }
+/* Photo-less banners (contact, employment, reviews) size to their content. */
+.page-contact .banner { height: auto; min-height: 0; background: #1b1b1b; }
+.page-contact .banner::before { content: none; }
 .menu-jumps {
   max-width: 880px;
-  margin: 0 auto 18px;
-  padding: 8px 40px;
+  margin: 0 auto 6px;
+  padding: 8px 40px 12px;
+  border-bottom: 1px solid #eee;
   display: flex;
   flex-wrap: wrap;
   gap: 8px 14px;
@@ -1690,19 +1836,25 @@ a.skip-link:focus-visible {
     padding: 10px 16px;
     white-space: normal;
   }
-  .banner,
-  .page-contact .banner {
+  .banner {
     height: auto;
-    min-height: 320px;
-    padding-block: 32px;
+    min-height: 0;
+    padding-block: 40px;
     background-position: center;
+  }
+  .banner--photo {
+    min-height: 280px;
+    padding-block: 56px;
     background-image: var(--mobile-background-image) !important;
   }
+  .banner--bare,
+  .page-contact .banner,
   .banner.banner-contact {
-    min-height: 380px;
+    min-height: 0;
+    padding-block: 40px;
   }
   .banner-inner {
-    padding-top: 32px;
+    padding-top: 0;
   }
   .banner h1 {
     font-size: clamp(24px, 7vw, 28px);
@@ -1869,8 +2021,8 @@ a.skip-link:focus-visible {
   }
   .gallery-thumb img {
     width: 100%;
-    height: auto;
-    aspect-ratio: 4 / 3;
+    height: 100%;
+    aspect-ratio: auto;
   }
   .lightbox-content {
     padding: 10px 10px 4px;
@@ -1960,8 +2112,11 @@ a.skip-link:focus-visible {
   .footer-copy,
   .footer-social {
     height: auto;
-    min-height: 64px;
-    padding-block: 16px;
+    min-height: 0;
+    padding-block: 12px;
+  }
+  .footer-copy {
+    padding-bottom: 20px;
   }
   .footer-policy {
     gap: 12px 16px;

@@ -76,6 +76,9 @@ export default function GalleryGrid({ images }: { images: GalleryImage[] }) {
               alt={image.alt}
               loading="lazy"
             />
+            <span className="gallery-caption" aria-hidden="true">
+              {image.alt}
+            </span>
           </button>
         ))}
       </section>
@@ -103,13 +106,19 @@ export default function GalleryGrid({ images }: { images: GalleryImage[] }) {
         )}
         <div className="lightbox-controls">
           <button type="button" className="lightbox-btn" onClick={() => go(-1)} aria-label="Previous image">
-            ‹
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M15 18l-6-6 6-6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
           </button>
           <button type="button" className="lightbox-btn close" onClick={close} aria-label="Close lightbox">
-            ✕
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
+            </svg>
           </button>
           <button type="button" className="lightbox-btn" onClick={() => go(1)} aria-label="Next image">
-            ›
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M9 18l6-6-6-6" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
           </button>
         </div>
       </dialog>
