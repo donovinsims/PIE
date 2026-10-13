@@ -361,7 +361,7 @@ body:has(.hero) .topbar {
   background: #a00000;
 }
 .pill-btn:active {
-  transform: scale(0.97);
+  transform: scale(0.96);
   background: #8a0000;
 }
 .pill-btn.lg {
@@ -803,7 +803,13 @@ body:has(.hero) .topbar {
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
-  will-change: transform;
+}
+/* No permanent will-change: it would pin a compositor layer for every card.
+   Promote only while the hover transform is actually running. */
+@media (prefers-reduced-motion: no-preference) {
+  .cat-card:hover img {
+    will-change: transform;
+  }
 }
 .cat-card:hover img {
   transform: scale(1.04);
@@ -999,9 +1005,12 @@ body:has(.hero) .topbar {
   justify-content: center;
   min-width: 44px;
   min-height: 44px;
+  /* Facebook brand blue lives here, not hardcoded in the markup. The icon
+     fills with currentColor, so hover feedback can be styled in one place. */
+  color: #3b5998;
 }
 .footer-social a:hover {
-  opacity: 0.85;
+  color: #2d4479;
 }
 
 /* ---------- Reviews ---------- */
