@@ -34,7 +34,7 @@ export default function ReviewsPage() {
         {REVIEWS.map((r, i) => (
           <article className="review-card" key={i}>
             <div className="who">{r.name}</div>
-            <div className="when">{r.date}</div>
+            <time className="when" dateTime={r.dateTime}>{r.date}</time>
             <div className="stars" role="img" aria-label="Rated 5 out of 5 stars">★★★★★</div>
             {r.text && <p>{r.text}</p>}
           </article>

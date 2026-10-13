@@ -16,7 +16,7 @@ const KH = [
   ["Specialties", "Pizzeria"],
   ["Associations", ""],
   ["Brands", "Broaster Chicken"],
-  ["Business Hours", "Mon - Thu, Sun 10:00 am - 9:45 pm\nFri, Sat 10:00 am - 10:45 pm"],
+  ["Business Hours", SITE.hoursShort],
   ["Payment Types", "American Express, Cash, Check, Discover, MasterCard, Visa"],
   ["Business Attributes", ""],
   ["Languages", "English"],
@@ -41,10 +41,10 @@ export default function AboutPage() {
           <div>
             <h2 className="reviews-heading">Business Information</h2>
             <dl className="kv-list">
-              {KH.map(([k, v]) => (
+              {KH.filter(([, value]) => value.trim()).map(([k, v]) => (
                 <div className="kv-row" key={k}>
                   <dt>{k}</dt>
-                  <dd>{v || "—"}</dd>
+                  <dd>{v}</dd>
                 </div>
               ))}
             </dl>
