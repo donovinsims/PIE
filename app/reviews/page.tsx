@@ -25,7 +25,7 @@ export default function ReviewsPage() {
         </div>
         <div className="reviews-rating-note">Overall Rating · {SITE.ratingTotal}</div>
         <div className="reviews-actions" style={{ marginTop: 14 }}>
-          <a className="pill-btn sm" href="https://www.pietrospizzeria.net/reviews#write-review">
+          <a className="pill-btn sm" href="https://www.pietrospizzeria.net/reviews#write-review" target="_blank" rel="noopener noreferrer" aria-label="Write Review (opens in a new tab)">
             Write Review
           </a>
         </div>
@@ -35,14 +35,14 @@ export default function ReviewsPage() {
           <article className="review-card" key={i}>
             <div className="who">{r.name}</div>
             <div className="when">{r.date}</div>
-            <div className="stars">★★★★★</div>
+            <div className="stars" role="img" aria-label="Rated 5 out of 5 stars">★★★★★</div>
             {r.text && <p>{r.text}</p>}
           </article>
         ))}
       </section>
       <section className="center reviews-end">
         <p>You've reached the end of recent reviews.</p>
-        <a className="pill-btn sm" href="https://www.pietrospizzeria.net/reviews">
+        <a className="pill-btn sm" href="https://www.pietrospizzeria.net/reviews" target="_blank" rel="noopener noreferrer" aria-label="See more reviews on the source site (opens in a new tab)">
           See more reviews on the source site
         </a>
       </section>

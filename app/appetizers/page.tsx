@@ -14,7 +14,7 @@ export default function AppetizersPage() {
   return (
     <div className="page-appetizers">
       <>
-      <Banner title="Try Appetizers" bg={p("IMG_7610-2880w.jpg")} mobileBg={p("IMG_7610-640w.jpg")} />
+      <Banner title="Appetizer Menu" bg={p("IMG_7610-2880w.jpg")} mobileBg={p("IMG_7610-640w.jpg")} />
       <Intro title="Satisfy Your Hunger Before Main Course">
         Get your meal started with a plate of delectable appetizers. Visit Pietro's Pizzeria, order one of our
         delicious appetizers before your main course. You won't be disappointed. We have a number of freshly made

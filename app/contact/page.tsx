@@ -28,7 +28,7 @@ export default function ContactPage() {
             <span className="pin">
               <i />
             </span>
-            <span>Visit Us — 5724 Elevator RD, Roscoe, IL</span>
+            <span>Visit Us — 5724 Elevator RD, Roscoe, IL · Get Directions</span>
           </a>
         </div>
       </section>

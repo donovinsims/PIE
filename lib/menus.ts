@@ -31,7 +31,7 @@ export const MENU_MENU: MenuCat[] = [
 ];
 
 export const MENU_BROADSTER_CHICKEN: MenuCat[] = [
-  { title: "BROASTER CHICKEN", rows: [
+  { title: "Broaster Chicken", rows: [
     {"name": "Chicken"},
     {"name": "4 pc.", "price": "$9.85"},
     {"name": "8 pc.", "price": "$16.85"},

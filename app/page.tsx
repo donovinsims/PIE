@@ -97,7 +97,7 @@ export default function HomePage() {
       <section className="testimonial-band" style={{ backgroundImage: `url(${TESTI_BG})` }}>
         <h2>What Our Customers Say</h2>
         <div className="testimonial-cards">
-          {REVIEWS.slice(0, 2).map((review) => <article className="testimonial-card" key={review.name}><p className="q">“{review.text}”</p><strong>{review.name}</strong></article>)}
+          {[...REVIEWS].sort((a, b) => Number(/pizza|food|service/i.test(b.text)) - Number(/pizza|food|service/i.test(a.text))).slice(0, 2).map((review) => <article className="testimonial-card" key={review.name}><p className="q">“{review.text}”</p><strong>{review.name}</strong></article>)}
         </div>
         <Link className="testimonial-more" href="/reviews">Read all reviews</Link>
       </section>
