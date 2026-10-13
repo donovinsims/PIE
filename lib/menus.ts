@@ -116,7 +116,7 @@ export const MENU_DINNERS: MenuCat[] = [
     {"name": "Ranch, Italian & Thousand Island"},
   ] },
   { title: "Pietro's Salad", rows: [
-    {"price": "$9.85", "desc": ["Sausage, Pepperoni, Ham, Green & Black Olives, Romano, Mozzarella & Italian Dressing"]},
+    {"name": "Pietro's Salad", "price": "$9.85", "desc": ["Sausage, Pepperoni, Ham, Green & Black Olives, Romano, Mozzarella & Italian Dressing"]},
   ] },
 ];
 
@@ -135,8 +135,6 @@ export const MENU_DESSERTS: MenuCat[] = [
 ];
 
 export const MENU_FAMILY_OR_PARTY_TRAYS: MenuCat[] = [
-  { title: "FAMILY / PARTY TRAYS", rows: [
-  ] },
   { title: "Full Trays Include Salad and Bread. Serves 16-20", rows: [
     {"name": "Lasagna", "price": "$85"},
     {"name": "Meat or Cheese Ravioli", "price": "$85"},
@@ -159,8 +157,6 @@ export const MENU_FAMILY_OR_PARTY_TRAYS: MenuCat[] = [
 ];
 
 export const MENU_LUNCH_SPECIALS: MenuCat[] = [
-  { title: "LUNCH SPECIALS", rows: [
-  ] },
   { title: "Personal Pizza", rows: [
     {"name": "With 1 Topping and a Pop", "price": "$5.50"},
     {"name": "Additional Toppings", "price": "$.50/ea"},

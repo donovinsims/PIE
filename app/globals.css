@@ -613,7 +613,8 @@ body:has(.hero) .topbar {
   position: relative;
   height: 582px;
   background-size: cover;
-  background-position: center top;
+  /* Weighted below centre so the pizza, not the box lid, fills the band. */
+  background-position: center 45%;
 }
 .hero::before {
   content: "";
@@ -1089,7 +1090,7 @@ body:has(.hero) .topbar {
 .contact-hero-details { margin-top: 26px; font-size: 17px; color: #fff; }
 .contact-hero-details p { margin: 2px 0; color: inherit; }
 .contact-hero-details a { color: #fff; text-decoration: underline; }
-.contact-actions { display: flex; justify-content: center; gap: 16px; }
+.contact-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
 .contact-form-section {
   padding: 0 40px 60px;
 }
@@ -1103,6 +1104,50 @@ body:has(.hero) .topbar {
 }
 .tally-card iframe {
   display: block;
+}
+/* Tally injects src via its own script; without it the iframe is an empty box. */
+.tally-card iframe:not([src]) {
+  display: none;
+}
+.tally-fallback {
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555;
+}
+.tally-card iframe[src] + .tally-fallback {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+}
+.employment-steps {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+  counter-reset: apply-step;
+  text-align: left;
+}
+.employment-steps li {
+  position: relative;
+  padding-left: 34px;
+  margin-bottom: 12px;
+  counter-increment: apply-step;
+}
+.employment-steps li::before {
+  content: counter(apply-step);
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
 }
 .employment-form-section {
   padding: 0 40px 40px;
@@ -2070,6 +2115,13 @@ a.skip-link:focus-visible {
   }
   .contact-map-section {
     padding: 24px var(--mobile-gutter);
+  }
+  .contact-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .contact-actions .pill-btn {
+    width: 100%;
   }
   .contact-form-section,
   .employment-form-section {

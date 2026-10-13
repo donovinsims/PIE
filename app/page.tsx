@@ -5,8 +5,8 @@ import { asset } from "@/lib/assets";
 import { REVIEWS } from "@/lib/reviews";
 import { OrderCta } from "@/components/Banner";
 
-const HERO_IMG = asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/pietrospizzeria-gallery-image-16-1920px-1920w.jpg");
-const HERO_IMG_MOBILE = asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/pietrospizzeria-gallery-image-16-1920px-640w.jpg");
+const HERO_IMG = asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/IMG_7606-1920w.jpg");
+const HERO_IMG_MOBILE = asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/IMG_7606-640w.jpg");
 const TESTI_BG = asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/g1-1920w.jpg");
 const HOME_GALLERY = [
   {

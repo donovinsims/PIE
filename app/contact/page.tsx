@@ -36,7 +36,7 @@ export default function ContactPage() {
       <section className="intro">
         <h2>Get In Touch With Us</h2>
         <p>
-          Send us a message. We&apos;ll contact you shortly.
+          Send us a message using the form below.
         </p>
       </section>
 
@@ -54,8 +54,8 @@ export default function ContactPage() {
           />
           <Script src="https://tally.so/widgets/embed.js" strategy="lazyOnload" />
           <p className="tally-fallback">
-            Having trouble with the form? Call us at <a href={SITE.phoneHref}>{SITE.phone}</a> or email{" "}
-            <a href={`mailto:${SITE.email}`}>{SITE.email}</a> — we&apos;ll get back to you shortly.
+            Prefer phone or email? Call <a href={SITE.phoneHref}>{SITE.phone}</a> or{" "}
+            <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
           </p>
         </div>
       </section>
