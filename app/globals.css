@@ -1690,7 +1690,9 @@ a.skip-link:focus-visible {
   }
 
   body {
-    padding-bottom: calc(var(--mobile-quick-action-height) + env(safe-area-inset-bottom));
+    /* Bar height + a 16px breathing gap, so the last line of the footer
+       never sits flush against (or under) the fixed action bar. */
+    padding-bottom: calc(var(--mobile-quick-action-height) + 16px + env(safe-area-inset-bottom));
   }
 
   .row,
