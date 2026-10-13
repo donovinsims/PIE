@@ -3,14 +3,24 @@ import type { CSSProperties } from "react";
 import { SITE } from "@/lib/site";
 import { asset } from "@/lib/assets";
 import { REVIEWS } from "@/lib/reviews";
+import { OrderCta } from "@/components/Banner";
 
-const HERO_IMG = asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/pietrospizzeria-gallery-image-16-1920px-1920w.jpg");
-const HERO_IMG_MOBILE = asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/pietrospizzeria-gallery-image-16-1920px-640w.jpg");
+const HERO_IMG = asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/IMG_7606-1920w.jpg");
+const HERO_IMG_MOBILE = asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/IMG_7606-640w.jpg");
 const TESTI_BG = asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/g1-1920w.jpg");
 const HOME_GALLERY = [
-  asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/IMG_7604-640w.jpg"),
-  asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/IMG_7605-640w.jpg"),
-  asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/g6-640w.jpg"),
+  {
+    src: asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/IMG_7604-640w.jpg"),
+    alt: "Pizza with pepperoni, olives, green peppers, mushrooms, and meat toppings",
+  },
+  {
+    src: asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/IMG_7605-640w.jpg"),
+    alt: "Pizza with sausage and melted cheese on a cardboard box",
+  },
+  {
+    src: asset("le-cdn.hibuwebsites.com/81e069a157ae431ab84f1edb47dc2a55/dms3rep/multi/opt/g6-640w.jpg"),
+    alt: "Two pizzas in delivery boxes — pepperoni and black olive",
+  },
 ];
 
 
@@ -22,7 +32,6 @@ export const metadata = {
 export default function HomePage() {
   return (
     <div className="page-home">
-      <>
       {/* Hero */}
       <section className="hero-wrap" aria-label="Pietro's Pizzeria hero banner">
         <div
@@ -31,9 +40,8 @@ export default function HomePage() {
         />
         <div className="hero-content">
           <h1>Roscoe's Favorite Pizzeria</h1>
-          <p className="hero-upsell">New dining area now open!</p>
-          <p className="hero-upsell">Full service bar, gaming, Sunday ticket!</p>
-          <h2>{SITE.tagline}</h2>
+          <p className="hero-upsell">New dining area now open — full bar, gaming & Sunday Ticket</p>
+          <p className="hero-tagline">{SITE.tagline}</p>
           <div className="hero-actions">
             <a
               className="pill-btn lg"
@@ -48,11 +56,11 @@ export default function HomePage() {
                 <path d="M15 3h6v6M10 14 21 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </a>
-            <a className="pill-btn lg" href={SITE.directions}>
-              Visit Us at 5724 Elevator RD, Roscoe, IL
+            <a className="pill-btn lg ghost" href={SITE.directions}>
+              Get Directions
             </a>
           </div>
-          <div className="hero-hours">{SITE.hoursLine}</div>
+          <p className="hero-hours">{SITE.hoursLine}</p>
         </div>
       </section>
 
@@ -68,29 +76,31 @@ export default function HomePage() {
 
       {/* STOP AND SMELL THE ROSES */}
       <section className="stop-band">
-        <h2>STOP AND SMELL THE ROSES EVERY DAY!</h2>
+        <h2>Stop and smell the roses every day!</h2>
         <p>Take a look at our spacious new dining area and some of our quality food options.</p>
       </section>
 
       <section className="home-gallery-preview" aria-labelledby="home-gallery-title">
         <h2 id="home-gallery-title">A Taste of Pietro&apos;s</h2>
         <div className="home-gallery-grid">
-          {HOME_GALLERY.map((src) => (
-            <img key={src} src={src} alt="Pietro's Pizzeria food and dining" loading="lazy" />
-          ))}
+          {HOME_GALLERY.map(({ src, alt }, idx) => {
+            const dims = idx === 2 ? { width: 600, height: 490 } : { width: 640, height: 480 };
+            return <img key={src} src={src} alt={alt} loading="lazy" width={dims.width} height={dims.height} />;
+          })}
         </div>
         <Link className="pill-btn" href="/gallery">View Full Gallery</Link>
       </section>
 
+      <OrderCta />
+
       {/* Testimonial band */}
       <section className="testimonial-band" style={{ backgroundImage: `url(${TESTI_BG})` }}>
-        <h2>Here's what our satisfied customers are saying...</h2>
+        <h2>What Our Customers Say</h2>
         <div className="testimonial-cards">
-          {REVIEWS.slice(0, 2).map((review) => <article className="testimonial-card" key={review.name}><p className="q">“{review.text}”</p><strong>{review.name}</strong></article>)}
+          {[...REVIEWS].sort((a, b) => Number(/pizza|food|service/i.test(b.text)) - Number(/pizza|food|service/i.test(a.text))).slice(0, 2).map((review) => <article className="testimonial-card" key={review.name}><p className="q">“{review.text}”</p><strong>{review.name}</strong></article>)}
         </div>
-        <Link className="testimonial-video" href="/reviews">Read all reviews</Link>
+        <Link className="testimonial-more" href="/reviews">Read all reviews</Link>
       </section>
-    </>
     </div>
     
   );

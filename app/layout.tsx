@@ -1,13 +1,17 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MobileQuickActions from "@/components/MobileQuickActions";
 
+export const viewport: Viewport = {
+  themeColor: "#000000",
+};
+
 export const metadata: Metadata = {
   title: {
     default: "Pietro's Pizzeria",
-    template: "%s",
+    template: "%s | Pietro's Pizzeria",
   },
   description: "Pietro's Pizzeria — Homemade Food | Fresh Ingredients | Delivery and Carry Out in Roscoe, IL.",
 };

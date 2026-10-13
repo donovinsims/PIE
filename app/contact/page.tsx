@@ -28,7 +28,7 @@ export default function ContactPage() {
             <span className="pin">
               <i />
             </span>
-            <span>Visit Us — 5724 Elevator RD, Roscoe, IL</span>
+            <span>Visit Us — 5724 Elevator RD, Roscoe, IL · Get Directions</span>
           </a>
         </div>
       </section>
@@ -36,7 +36,7 @@ export default function ContactPage() {
       <section className="intro">
         <h2>Get In Touch With Us</h2>
         <p>
-          Send us a message. We&apos;ll contact you shortly.
+          Send us a message using the form below.
         </p>
       </section>
 
@@ -46,13 +46,17 @@ export default function ContactPage() {
             data-tally-src="https://tally.so/embed/eqXgox?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
             loading="lazy"
             width="100%"
-            height="500"
+            height="300"
             frameBorder={0}
             marginHeight={0}
             marginWidth={0}
             title="Contact Pietro's Pizzeria"
           />
           <Script src="https://tally.so/widgets/embed.js" strategy="lazyOnload" />
+          <p className="tally-fallback">
+            Prefer phone or email? Call <a href={SITE.phoneHref}>{SITE.phone}</a> or{" "}
+            <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.
+          </p>
         </div>
       </section>
     </div>

@@ -1,7 +1,7 @@
 export const SITE = {
   name: "Pietro's Pizzeria",
   phone: "(815) 623-2112",
-  phoneHref: "tel:(815) 623-2112",
+  phoneHref: "tel:+18156232112",
   orderUrl: "https://pietrospizza.toast.site/order?diningOption=takeout&rwg_token=AE37R_gxC-2M9RWv5tYaFuz34rd_ERnjpXZ0CVny-2XX5C7BaRyYCUMATVx6dMnwDwZsAmtnn3Y3ExQzvR2wSW-ZULc8IQKokg%3D%3D",
   email: "myaunke75@gmail.com",
   address: "5724 Elevator RD, Roscoe, IL 61073",
@@ -35,8 +35,8 @@ export const NAV_ITEMS: NavItem[] = [
     label: "Menu",
     href: "/menu",
     children: [
-      { label: "Pizza", href: "/menu" },
-      { label: "Broaster Chicken", href: "/broadster-chicken" },
+
+      { label: "Broaster Chicken", href: "/broaster-chicken" },
       { label: "Appetizers", href: "/appetizers" },
       { label: "Sandwiches", href: "/sandwiches" },
       { label: "Dinners", href: "/dinners" },
@@ -52,4 +52,4 @@ export const NAV_ITEMS: NavItem[] = [
   { label: "Contact", href: "/contact" },
 ];
 
-export const MENU_CHILD_PATHS = ["/menu", "/broadster-chicken", "/appetizers", "/sandwiches", "/dinners", "/desserts"];
+export const MENU_CHILD_PATHS = ["/menu", "/broaster-chicken", "/appetizers", "/sandwiches", "/dinners", "/desserts"];

@@ -18,35 +18,31 @@ export default function ReviewsPage() {
         <h2 className="reviews-heading">
           Here's what our satisfied customers are saying...
         </h2>
-        <div className="rating-big">( 4.3 )</div>
-        <div className="stars-lg">
+        <div className="rating-big">{SITE.rating}</div>
+        <div className="stars-lg" role="img" aria-label={`Rated ${SITE.rating} out of 5 stars`}>
           <span className="stars-filled" aria-hidden="true">★★★★</span>
           <span className="stars-partial" aria-hidden="true" style={{ "--pct": "30%" } as React.CSSProperties}>★</span>
         </div>
-        <div className="reviews-rating-note">Overall Rating</div>
+        <div className="reviews-rating-note">Overall Rating · {SITE.ratingTotal}</div>
         <div className="reviews-actions" style={{ marginTop: 14 }}>
-          <a className="pill-btn sm" href="https://www.pietrospizzeria.net/reviews#write-review">
+          <a className="pill-btn sm" href="https://www.pietrospizzeria.net/reviews#write-review" target="_blank" rel="noopener noreferrer" aria-label="Write Review (opens in a new tab)">
             Write Review
           </a>
-        </div>
-        <div className="reviews-tabs">
-          <span className="tab active">All (4.3 / 783 Ratings)</span>
-          <span className="tab">(4.4 / 649 Ratings)</span>
         </div>
       </section>
       <section>
         {REVIEWS.map((r, i) => (
           <article className="review-card" key={i}>
             <div className="who">{r.name}</div>
-            <div className="when">{r.date}</div>
-            <div className="stars">★★★★★</div>
+            <time className="when" dateTime={r.dateTime}>{r.date}</time>
+            <div className="stars" role="img" aria-label="Rated 5 out of 5 stars">★★★★★</div>
             {r.text && <p>{r.text}</p>}
           </article>
         ))}
       </section>
       <section className="center reviews-end">
         <p>You've reached the end of recent reviews.</p>
-        <a className="pill-btn sm" href="https://www.pietrospizzeria.net/reviews">
+        <a className="pill-btn sm" href="https://www.pietrospizzeria.net/reviews" target="_blank" rel="noopener noreferrer" aria-label="See more reviews on the source site (opens in a new tab)">
           See more reviews on the source site
         </a>
       </section>

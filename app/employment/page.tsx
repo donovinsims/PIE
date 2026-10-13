@@ -18,46 +18,25 @@ export default function EmploymentPage() {
         <h2>Looking for a New Job?</h2>
         <p>
           If you're looking for a new career, reach out to Pietro's Pizzeria. We might have the right job opportunity
-          for you. Fill out our form below and attach your latest resume, and we will get in touch with you soon. Call
-          us for more details.
+          for you. Call us for more details, or send your latest resume and we will get in touch with you soon.
         </p>
       </section>
 
       <section className="employment-form-section">
-        <form
-          className="widget-form employment-form"
-          action="#"
-        >
+        <div className="widget-form employment-form">
           <h2 className="employment-form-title">
             Apply for a Job With Us
           </h2>
-          <div className="form-row">
-            <label htmlFor="j-name">Name:</label>
-            <input id="j-name" name="name" required autoComplete="name" />
+          <ol className="employment-steps">
+            <li>Call us to ask about current openings.</li>
+            <li>Email your latest resume.</li>
+            <li>We will get in touch with you soon.</li>
+          </ol>
+          <div className="contact-actions">
+            <a className="pill-btn" href={SITE.phoneHref}>Call {SITE.phone}</a>
+            <a className="pill-btn" href={`mailto:${SITE.email}?subject=Job Application`}>Email Your Resume</a>
           </div>
-          <div className="form-row">
-            <label htmlFor="j-email">Email:</label>
-            <input id="j-email" name="email" type="email" required autoComplete="email" />
-          </div>
-          <div className="form-row">
-            <label htmlFor="j-phone">Phone:</label>
-            <input id="j-phone" name="phone" type="tel" required autoComplete="tel" />
-          </div>
-          <div className="form-row">
-            <label htmlFor="j-message">Message:</label>
-            <textarea id="j-message" name="message" required />
-          </div>
-          <div className="form-row">
-            <label htmlFor="j-resume">Attach Resume:</label>
-            <input id="j-resume" name="resume" type="file" accept=".pdf,.doc,.docx,.txt" />
-          </div>
-          <button className="pill-btn" type="submit">
-            Submit Application
-          </button>
-          <p className="employment-form-alt">
-            Or call us at <a href={SITE.phoneHref}>{SITE.phone}</a>
-          </p>
-        </form>
+        </div>
       </section>
 
       <section className="cta-band" style={{ backgroundImage: `url(${asset("le-cdn.hibuwebsites.com/md/dmip/dms3rep/multi/opt/green-vegetables-pepper-avocado-asparagus-2880w.jpg")})` }}>

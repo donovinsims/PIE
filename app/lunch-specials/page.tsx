@@ -1,6 +1,7 @@
-import { Banner, Intro, MenuSection } from "@/components/Banner";
+import { Banner, Intro, MenuSection, OrderCta } from "@/components/Banner";
 import { asset } from "@/lib/assets";
 import { MENU_LUNCH_SPECIALS } from "@/lib/menus";
+import { SITE } from "@/lib/site";
 
 export const metadata = {
   title: "Pietro's Pizzeria Lunch Specials | Roscoe, IL",
@@ -16,9 +17,10 @@ export default function LunchSpecialsPage() {
       <Banner title="Lunch Specials" bg={p("IMG_7629-1920w.jpg")} mobileBg={p("IMG_7629-640w.jpg")} />
       <Intro title="Try Our Homemade Lunch Specials">
         At Pietro's Pizzeria, all our food is homemade, using fresh ingredients. We don't use anything pre-made and we
-        even grate our own cheese. If you're looking for great lunch options, call us today.
+        even grate our own cheese. If you're looking for great lunch options, <a href={SITE.phoneHref}>call us today</a>.
       </Intro>
       <MenuSection title="Menu" cats={MENU_LUNCH_SPECIALS} note="Plus tax and delivery. Prices subject to change. No substitutions allowed." />
+      <OrderCta />
     </>
     </div>
     

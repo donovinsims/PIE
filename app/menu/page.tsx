@@ -1,9 +1,10 @@
-import { Banner, Intro, MenuSection } from "@/components/Banner";
+import { Banner, Intro, MenuSection, OrderCta } from "@/components/Banner";
 import { asset } from "@/lib/assets";
 import { MENU_MENU } from "@/lib/menus";
+import { SITE } from "@/lib/site";
 
 export const metadata = {
-  title: "Pietro's Pizzeria Pizza Menu | Roscoe, IL",
+  title: "Pizza Menu | Roscoe, IL",
   description: "Browse the Pietro's Pizzeria pizza menu in Roscoe, IL. Hand-tossed, thick crust, and gluten-free options available for delivery and carry out.",
 };
 
@@ -19,8 +20,20 @@ export default function MenuPage() {
         amazing homemade pizza. We also have gluten-free crust and cauliflower crust options. We even grate our own
         cheese. You can order delivery or carry out. Call us today!
       </Intro>
-      <nav className="menu-jumps" aria-label="Pizza menu categories">{MENU_MENU.map((cat) => <a href={`#${cat.id}`} key={cat.id}>{cat.title}</a>)}</nav>
+      <nav className="menu-jumps" aria-label="Pizza menu categories">
+        {MENU_MENU.map((cat) => <a href={`#${cat.id}`} key={cat.id}>{cat.title}</a>)}
+        <a
+          className="pill-btn sm"
+          href={SITE.orderUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Order now (opens in a new tab)"
+        >
+          Order Now
+        </a>
+      </nav>
       <MenuSection title="Menu" cats={MENU_MENU} note="Plus tax and delivery. Prices subject to change. No substitutions allowed." />
+      <OrderCta />
     </>
     </div>
     

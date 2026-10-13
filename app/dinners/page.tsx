@@ -1,4 +1,4 @@
-import { Banner, Intro, MenuSection } from "@/components/Banner";
+import { Banner, Intro, MenuSection, OrderCta } from "@/components/Banner";
 import { asset } from "@/lib/assets";
 import { MENU_DINNERS } from "@/lib/menus";
 
@@ -20,6 +20,7 @@ export default function DinnersPage() {
         can order carry out or get your meal delivered. Call us for details.
       </Intro>
       <MenuSection title="Menu" cats={MENU_DINNERS} note="Plus tax and delivery. Prices subject to change. No substitutions allowed." />
+      <OrderCta />
     </>
     </div>
     
